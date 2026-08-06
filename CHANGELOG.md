@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.4...v1.6.5) (2026-08-06)
+
+
+### Bug Fixes
+
+* provide Hatchling to manifest checks ([#37](https://github.com/betabitplus/ternforge-template-components/issues/37)) ([6755023](https://github.com/betabitplus/ternforge-template-components/commit/6755023977b52e9a723c20abe4c66952f17f87af))
+
 ## [1.6.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.3...v1.6.4) (2026-08-06)
 
 
