@@ -11,6 +11,7 @@ from pathlib import Path
 
 
 def main(argv: list[str] | None = None) -> int:
+    """Run the requested module inside a managed asyncio event loop."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("module")
     parser.add_argument("module_args", nargs=argparse.REMAINDER)
