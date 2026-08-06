@@ -21,8 +21,8 @@ dev = [
   "pip-audit>=2.10.1",
   "pre-commit>=4.6.0",
   # Shared repo tooling and test support
-  "py-lib-policy @ git+https://github.com/betabitplus-template-lab/sandbox-ternforge-tooling-py-policy-20260717-r2.git@d44737a0887c6bf5d8702d03221845c62e0fed4b",
-  "py-lib-testkit @ git+https://github.com/betabitplus-template-lab/sandbox-ternforge-tooling-py-testkit-20260717-r2.git@233ebec6a1106fd1b65b84803019494522338667",
+  "py-lib-policy @ git+https://github.com/betabitplus/ternforge-tooling-py-policy.git@v1.0.0",
+  "py-lib-testkit @ git+https://github.com/betabitplus/ternforge-tooling-py-testkit.git@v1.0.0",
   "pyright>=1.1.410",
   # Test runner and plugins
   "pytest>=9.1.0",
