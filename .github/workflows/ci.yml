@@ -4,6 +4,8 @@ on:
   pull_request:
     branches: [main]
     types: [opened, reopened, synchronize, edited]
+  push:
+    branches-ignore: [main]
   workflow_dispatch:
 
 permissions:
@@ -13,8 +15,8 @@ permissions:
 jobs:
   required:
     name: ci / required
-    # Pin a stable hosted pool; ubuntu-latest repeatedly failed runner acquisition.
-    runs-on: ubuntu-22.04
+    # Lightweight checks use the separate container-backed runner pool.
+    runs-on: ubuntu-slim
     steps:
       - name: Validate pull request title
         if: github.event_name == 'pull_request'
