@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.5.0...v1.6.0) (2026-08-06)
+
+
+### Features
+
+* parameterize Python workflow callers ([#24](https://github.com/betabitplus/ternforge-template-components/issues/24)) ([e07c5d6](https://github.com/betabitplus/ternforge-template-components/commit/e07c5d6d1bbe1b41bce138a196b9039040d447e9))
+
 ## [1.5.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.6...v1.5.0) (2026-08-06)
 
 
