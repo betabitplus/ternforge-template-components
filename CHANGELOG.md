@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.2...v1.6.3) (2026-08-06)
+
+
+### Bug Fixes
+
+* pin generated releases to infra-ci v1.6.1 ([#33](https://github.com/betabitplus/ternforge-template-components/issues/33)) ([d0926dd](https://github.com/betabitplus/ternforge-template-components/commit/d0926dd9a4e58a5cb7d27bd3dc5fb19aeeed9634))
+
 ## [1.6.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.1...v1.6.2) (2026-08-06)
 
 
