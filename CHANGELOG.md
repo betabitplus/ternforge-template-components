@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.4...v1.4.5) (2026-08-06)
+
+
+### Bug Fixes
+
+* align Flake8 with Python product style ([#18](https://github.com/betabitplus/ternforge-template-components/issues/18)) ([57f54d3](https://github.com/betabitplus/ternforge-template-components/commit/57f54d3afeed2120b7da74027f7091298b2ce6b2))
+
 ## [1.4.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.3...v1.4.4) (2026-08-06)
 
 
