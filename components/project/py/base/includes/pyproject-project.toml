@@ -26,7 +26,7 @@ classifiers = [
 ]
 # --- Main Dependencies ---
 dependencies = [
-  "py-lib-runtime @ git+https://github.com/betabitplus-template-lab/sandbox-ternforge-tooling-py-runtime-20260717-r2.git@a4fa84809aa9c5aced3c0a367b23fbcc7f5466d0",
+  "py-lib-runtime @ git+https://github.com/betabitplus/ternforge-tooling-py-runtime.git@v1.0.0",
 ]
 # --- Project URLs ---
 urls."Bug Tracker" = "https://github.com/[[[ github_owner ]]]/[[[ repository_name ]]]/issues"
