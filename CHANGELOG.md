@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.3...v1.4.4) (2026-08-06)
+
+
+### Bug Fixes
+
+* pin Python workflows to infra-ci v1.5.1 ([#16](https://github.com/betabitplus/ternforge-template-components/issues/16)) ([3fde11f](https://github.com/betabitplus/ternforge-template-components/commit/3fde11fc9fe8fc698052b877c4217c3d78a10621))
+
 ## [1.4.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.2...v1.4.3) (2026-08-06)
 
 
