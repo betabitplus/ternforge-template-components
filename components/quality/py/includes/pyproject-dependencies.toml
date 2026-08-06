@@ -43,3 +43,6 @@ dev = [
   "wheel>=0.47.0",
 ]
 
+[tool.uv]
+required-version = "==0.12.0"
+
