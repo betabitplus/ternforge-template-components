@@ -1,0 +1,60 @@
+name: ci
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, reopened, synchronize, edited]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  required:
+    name: ci / required
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate pull request title
+        if: github.event_name == 'pull_request'
+        uses: amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50 # v6.1.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          types: |
+            build
+            chore
+            ci
+            docs
+            feat
+            fix
+            perf
+            refactor
+            revert
+            test
+
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Verify component repository
+        run: |
+          set -euo pipefail
+          git diff --check
+          python -m json.tool release-please-config.json >/dev/null
+          python -m json.tool .release-please-manifest.json >/dev/null
+          test -f components/agents/base/template/.agents/AGENTS.md
+          test -f components/repository/base/template/.editorconfig
+          test -f components/repository/base/template/.gitattributes
+          test -f components/repository/base/template/LICENSE
+          test -f components/repository/base/template/.github/pull_request_template.md
+          test -f components/repository/copier/template/.gitignore
+          if find components -type l | grep -q .; then
+            echo 'symlinks are not allowed in component sources' >&2
+            exit 1
+          fi
+          if find components -print | grep -E '\{\{|\}\}|\{%|%\}|\[\[|\]\]' ; then
+            echo 'component source paths must be stable and question-independent' >&2
+            exit 1
+          fi
