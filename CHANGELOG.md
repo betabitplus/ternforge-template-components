@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.2...v1.4.3) (2026-08-06)
+
+
+### Bug Fixes
+
+* align generated direct gate contract ([#14](https://github.com/betabitplus/ternforge-template-components/issues/14)) ([79d4079](https://github.com/betabitplus/ternforge-template-components/commit/79d4079bc67cbc2bdbc328f6269e89f2e7f8353a))
+
 ## [1.4.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.1...v1.4.2) (2026-08-06)
 
 
