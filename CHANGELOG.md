@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.1...v1.4.2) (2026-08-06)
+
+
+### Bug Fixes
+
+* declare provider distribution tools ([#12](https://github.com/betabitplus/ternforge-template-components/issues/12)) ([18dd23f](https://github.com/betabitplus/ternforge-template-components/commit/18dd23f983e6df094edaee316280eff91628e669))
+
 ## [1.4.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.0...v1.4.1) (2026-08-06)
 
 
