@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   release:
-    uses: betabitplus/ternforge-infra-ci/.github/workflows/release.yml@a669bddb811a69dd6533acc2cae0d30ced415337 # v1.5.1
+    uses: betabitplus/ternforge-infra-ci/.github/workflows/release.yml@5ae3d760d3daae67c97d058e73c203d5acf6f4b9 # v1.6.0
     with:
       app-client-id: ${{ vars.TERNFORGE_RELEASE_CLIENT_ID }}
       repository: ${{ github.event.repository.name }}
