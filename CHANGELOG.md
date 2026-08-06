@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.2.0...v1.3.0) (2026-08-06)
+
+
+### Features
+
+* add complete Python library components ([#6](https://github.com/betabitplus/ternforge-template-components/issues/6)) ([653ccf6](https://github.com/betabitplus/ternforge-template-components/commit/653ccf6bbf2c1c15ac943afe7790ccae54d0da13))
+
 ## [1.2.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.1.0...v1.2.0) (2026-08-06)
 
 
