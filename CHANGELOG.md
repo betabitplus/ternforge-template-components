@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.3...v1.6.4) (2026-08-06)
+
+
+### Bug Fixes
+
+* keep Flake8 class order consistent ([#35](https://github.com/betabitplus/ternforge-template-components/issues/35)) ([24024fc](https://github.com/betabitplus/ternforge-template-components/commit/24024fc0cd3842d9e52959d25aa945f4f80620e9))
+
 ## [1.6.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.2...v1.6.3) (2026-08-06)
 
 
