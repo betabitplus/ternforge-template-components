@@ -224,7 +224,7 @@ repos:
         name: pip-audit (uv dependencies)
         entry: >-
           bash -c 'tmp="$(mktemp)"; trap "rm -f $tmp" EXIT;
-          uv export --frozen --no-dev --no-emit-project --no-emit-package py-lib-runtime --output-file "$tmp";
+          uv export --frozen --no-dev --no-emit-project[[% if runtime_audit_exclude_package | default('') %]] --no-emit-package [[[ runtime_audit_exclude_package ]]][[% endif %]] --output-file "$tmp";
           uv run --frozen --no-sync pip-audit --requirement "$tmp" --no-deps --disable-pip[[% for waiver in pip_audit_waivers %]] --ignore-vuln [[[ waiver.id ]]][[% endfor %]]'
         language: system
         pass_filenames: false
@@ -233,16 +233,18 @@ repos:
   # =============================================================================
   # Docs - Shape and docstring coverage
   # =============================================================================
+[[% if ci_policy_command | default('') %]]
   - repo: local
     hooks:
       - id: py-lib-check-project-docs-structure
         name: py-lib project docs structure
-        entry: uv run py-lib-policy .
+        entry: uv run [[[ ci_policy_command ]]]
         language: system
         pass_filenames: false
         always_run: true
         files: (^docs/|^pyproject\.toml$)
         stages: [pre-push]
+[[% endif %]]
 
   - repo: https://github.com/econchick/interrogate
     rev: 1.7.0
@@ -259,14 +261,16 @@ repos:
   # =============================================================================
   - repo: local
     hooks:
+[[% if ci_policy_command | default('') %]]
       - id: py-lib-check-project-structure
         name: py-lib project structure
-        entry: uv run py-lib-policy .
+        entry: uv run [[[ ci_policy_command ]]]
         language: system
         pass_filenames: false
         always_run: true
         stages: [pre-push]
 
+[[% endif %]]
       - id: deptry
         name: deptry (dependency hygiene)
         entry: uv run deptry
