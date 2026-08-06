@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.6...v1.5.0) (2026-08-06)
+
+
+### Features
+
+* declare Python editor line length ([#22](https://github.com/betabitplus/ternforge-template-components/issues/22)) ([cbb7114](https://github.com/betabitplus/ternforge-template-components/commit/cbb711451d3f71d8e8c0cd7eb301a91009bb9003))
+
 ## [1.4.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.5...v1.4.6) (2026-08-06)
 
 
