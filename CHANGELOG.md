@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.1.0...v1.2.0) (2026-08-06)
+
+
+### Features
+
+* add Python library agent component ([#4](https://github.com/betabitplus/ternforge-template-components/issues/4)) ([09e0216](https://github.com/betabitplus/ternforge-template-components/commit/09e0216998821b944cc729d7f7bb8366abcc106b))
+
 ## [1.1.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.0.0...v1.1.0) (2026-08-06)
 
 
