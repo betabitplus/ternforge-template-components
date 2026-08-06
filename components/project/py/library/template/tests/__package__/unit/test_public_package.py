@@ -19,11 +19,10 @@ Checks:
 from __future__ import annotations
 
 import [[[ package_name ]]] as package
-from [[[ package_name ]]] import (
-    InvalidConfigValueError,
-    [[[ config_class_name ]]] as Config,
-    [[[ error_class_name ]]] as PackageError,
-)
+
+Config = package.[[[ config_class_name ]]]
+PackageError = package.[[[ error_class_name ]]]
+InvalidConfigValueError = package.InvalidConfigValueError
 
 # =============================================================================
 # Tests

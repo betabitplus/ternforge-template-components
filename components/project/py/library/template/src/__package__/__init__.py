@@ -22,8 +22,9 @@ from [[[ package_name ]]]._api.config import (
     install_config,
 )
 from [[[ package_name ]]]._api.errors import (
-    InvalidConfigValueError,
-    [[[ error_class_name ]]],
+[[% for error_name in [error_class_name, "InvalidConfigValueError"] | sort %]]
+    [[[ error_name ]]],
+[[% endfor %]]
 )
 
 try:
@@ -32,9 +33,9 @@ except PackageNotFoundError:  # pragma: no cover
     __version__ = "0.0.0+local"
 
 __all__ = [
-    "InvalidConfigValueError",
-    "[[[ config_class_name ]]]",
-    "[[[ error_class_name ]]]",
+[[% for public_name in [config_class_name, error_class_name, "InvalidConfigValueError"] | sort %]]
+    "[[[ public_name ]]]",
+[[% endfor %]]
     "__version__",
     "get_config",
     "install_config",
