@@ -13,6 +13,7 @@ permissions:
 jobs:
   required:
     name: ci / required
+    # Pin a stable hosted pool; ubuntu-latest repeatedly failed runner acquisition.
     runs-on: ubuntu-22.04
     steps:
       - name: Validate pull request title
