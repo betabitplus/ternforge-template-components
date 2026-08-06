@@ -13,7 +13,7 @@ permissions:
 jobs:
   required:
     name: ci / required
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Validate pull request title
         if: github.event_name == 'pull_request'
