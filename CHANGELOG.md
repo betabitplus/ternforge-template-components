@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.0.0...v1.1.0) (2026-08-06)
+
+
+### Features
+
+* extend shared repository defaults ([#2](https://github.com/betabitplus/ternforge-template-components/issues/2)) ([76f0626](https://github.com/betabitplus/ternforge-template-components/commit/76f0626b2268943ee4a0f0bccd8d43278cb267d9))
+
 ## 1.0.0 (2026-08-06)
 
 
