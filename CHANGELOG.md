@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.5...v1.4.6) (2026-08-06)
+
+
+### Bug Fixes
+
+* include Flake8 config in source distributions ([#20](https://github.com/betabitplus/ternforge-template-components/issues/20)) ([ef399c7](https://github.com/betabitplus/ternforge-template-components/commit/ef399c71c639af7bb700916fcfbe2d1b2df9f444))
+
 ## [1.4.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.4.4...v1.4.5) (2026-08-06)
 
 
