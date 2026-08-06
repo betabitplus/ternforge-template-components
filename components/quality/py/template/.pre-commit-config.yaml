@@ -180,10 +180,7 @@ repos:
 
       - id: py-lib-check-class-attributes-order
         name: flake8 (class attributes order)
-        entry: >-
-          uv run flake8 --select=CCE001
-          --class-attributes-order=field,nested_class,magic_method,property_method,static_method,class_method,method
-          src
+        entry: uv run flake8 --select=CCE001 src
         language: system
         pass_filenames: false
         always_run: true
