@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.1...v1.6.2) (2026-08-06)
+
+
+### Bug Fixes
+
+* finalize exact Python tooling contracts ([#30](https://github.com/betabitplus/ternforge-template-components/issues/30)) ([64474e5](https://github.com/betabitplus/ternforge-template-components/commit/64474e5357f93d69958754212b5de301b39092b1))
+* pin release orchestration to infra-ci v1.6.1 ([#32](https://github.com/betabitplus/ternforge-template-components/issues/32)) ([aa8944e](https://github.com/betabitplus/ternforge-template-components/commit/aa8944ed5e451938b23698c6b94777a8cf65e439))
+
 ## [1.6.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.0...v1.6.1) (2026-08-06)
 
 
