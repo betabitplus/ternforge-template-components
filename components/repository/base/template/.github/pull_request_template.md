@@ -1,11 +1,7 @@
-## Summary
+# Summary
 
-Describe the observable change.
+Describe the infrastructure change.
 
-## Verification
+## Validation
 
-List the direct checks and real scenario used to verify it.
-
-## Rollback
-
-Describe the local rollback checkpoint.
+- [ ] Ran the repository's required checks

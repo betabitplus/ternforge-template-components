@@ -7,12 +7,15 @@ or reusable Jinja `includes/`. A final template owns every output path and
 selects released component files explicitly through Vendir.
 
 Current released components cover the minimal infrastructure repository and
-the first Python-library-specific agent guidance:
+the complete Python-library product:
 
-- `components/agents/base`
-- `components/agents/py-library`
-- `components/repository/base`
-- `components/repository/copier`
+- `components/agents/base` and `components/agents/py-library`
+- `components/repository/base` and `components/repository/copier`
+- `components/project/py/base` and `components/project/py/library`
+- `components/quality/py`
+- `components/delivery/ci/py-library`
+- `components/delivery/release/library`
+- `components/delivery/updates`
 
 This repository is not a final template, registry, assembler, package manager,
 runtime dependency, or fleet-management system.
