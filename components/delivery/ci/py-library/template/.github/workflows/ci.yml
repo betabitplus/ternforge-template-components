@@ -16,5 +16,5 @@ jobs:
     uses: betabitplus/ternforge-infra-ci/.github/workflows/python-library.yml@df435ecb7f5f3e538a3d90a1002525a6354662ed # v1.5.0
     with:
       python-version: "3.13"
-      policy-command: ternforge-policy check
+      policy-command: py-lib-policy check
       runtime-audit-exclude-package: py-lib-runtime
