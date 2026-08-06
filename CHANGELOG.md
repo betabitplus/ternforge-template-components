@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.3.0...v1.4.0) (2026-08-06)
+
+
+### Features
+
+* bind Python tooling production releases ([#8](https://github.com/betabitplus/ternforge-template-components/issues/8)) ([0408e40](https://github.com/betabitplus/ternforge-template-components/commit/0408e406a347309066661a132a94f741d4b04f10))
+
 ## [1.3.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.2.0...v1.3.0) (2026-08-06)
 
 
