@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.0...v1.6.1) (2026-08-06)
+
+
+### Bug Fixes
+
+* keep local tooling dependency boundaries explicit ([#26](https://github.com/betabitplus/ternforge-template-components/issues/26)) ([884b262](https://github.com/betabitplus/ternforge-template-components/commit/884b2626cb296cbd509e9078c13ff887230f13cd))
+
 ## [1.6.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.5.0...v1.6.0) (2026-08-06)
 
 
