@@ -23,7 +23,7 @@ dev = [
   "pip-audit>=2.10.1",
   "pre-commit>=4.6.0",
   # Shared repo tooling and test support
-  "py-lib-policy @ git+https://github.com/betabitplus/ternforge-tooling-py-policy.git@v1.1.0",
+  "py-lib-policy @ git+https://github.com/betabitplus/ternforge-tooling-py-policy.git@v1.1.1",
   "py-lib-testkit @ git+https://github.com/betabitplus/ternforge-tooling-py-testkit.git@v1.1.1",
   "pyright>=1.1.410",
   # Test runner and plugins
