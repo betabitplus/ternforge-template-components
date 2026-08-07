@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.7...v1.6.8) (2026-08-07)
+
+
+### Bug Fixes
+
+* pin canonical policy release ([#43](https://github.com/betabitplus/ternforge-template-components/issues/43)) ([4970643](https://github.com/betabitplus/ternforge-template-components/commit/4970643d9dd60bcc05f282f72654944a488360d3))
+
 ## [1.6.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.6...v1.6.7) (2026-08-07)
 
 
