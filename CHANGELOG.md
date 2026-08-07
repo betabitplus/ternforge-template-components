@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.6...v1.6.7) (2026-08-07)
+
+
+### Bug Fixes
+
+* bind testkit v1.1.1 ([#41](https://github.com/betabitplus/ternforge-template-components/issues/41)) ([1d4a688](https://github.com/betabitplus/ternforge-template-components/commit/1d4a688cca69fb37bd9299187edfccd01f4bf500))
+
 ## [1.6.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.5...v1.6.6) (2026-08-07)
 
 
