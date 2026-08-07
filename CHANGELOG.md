@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.8...v1.6.9) (2026-08-07)
+
+
+### Bug Fixes
+
+* pin cleaned tooling releases ([#45](https://github.com/betabitplus/ternforge-template-components/issues/45)) ([4fd6ecd](https://github.com/betabitplus/ternforge-template-components/commit/4fd6ecd7c2d6f829294879fd3ac8dc05c8dbae41))
+
 ## [1.6.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.7...v1.6.8) (2026-08-07)
 
 
