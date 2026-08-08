@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.10](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.9...v1.6.10) (2026-08-08)
+
+
+### Bug Fixes
+
+* simplify Python library quality ownership ([#47](https://github.com/betabitplus/ternforge-template-components/issues/47)) ([e224fb1](https://github.com/betabitplus/ternforge-template-components/commit/e224fb1e9175b035220f7aec67faf7e2759f7b5b))
+
 ## [1.6.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.8...v1.6.9) (2026-08-07)
 
 
