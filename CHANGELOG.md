@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.12](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.11...v1.6.12) (2026-08-08)
+
+
+### Bug Fixes
+
+* keep changelog release-owned ([#51](https://github.com/betabitplus/ternforge-template-components/issues/51)) ([4c3753a](https://github.com/betabitplus/ternforge-template-components/commit/4c3753a265d82e749328e671872dc1196f01d4b0))
+
 ## [1.6.11](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.10...v1.6.11) (2026-08-08)
 
 
