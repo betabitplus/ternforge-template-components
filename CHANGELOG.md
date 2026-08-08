@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.2...v1.7.3) (2026-08-08)
+
+
+### Bug Fixes
+
+* simplify generated release caller ([#63](https://github.com/betabitplus/ternforge-template-components/issues/63)) ([011d95c](https://github.com/betabitplus/ternforge-template-components/commit/011d95cc879cfab397b43289c8620da235116f6b))
+
 ## [1.7.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.1...v1.7.2) (2026-08-08)
 
 
