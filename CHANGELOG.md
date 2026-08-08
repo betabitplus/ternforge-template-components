@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.0...v1.7.1) (2026-08-08)
+
+
+### Bug Fixes
+
+* restore uv source ownership ([#57](https://github.com/betabitplus/ternforge-template-components/issues/57)) ([941a6a2](https://github.com/betabitplus/ternforge-template-components/commit/941a6a2cd4768e68fd791c38ec45537f1cb5cb04))
+
 ## [1.7.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.12...v1.7.0) (2026-08-08)
 
 
