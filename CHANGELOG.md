@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.11](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.10...v1.6.11) (2026-08-08)
+
+
+### Bug Fixes
+
+* update Python testkit dependency ([#49](https://github.com/betabitplus/ternforge-template-components/issues/49)) ([0dcfb00](https://github.com/betabitplus/ternforge-template-components/commit/0dcfb0086ed57b8d35b0982f0302137500854990))
+
 ## [1.6.10](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.9...v1.6.10) (2026-08-08)
 
 
