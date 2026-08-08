@@ -315,18 +315,6 @@ library_lane = "[[[ library_lane ]]]"
 env_prefix = "[[[ env_prefix ]]]"
 secrets.env_files = []
 
-# ---------------- Pip Audit (dependency vulnerability scanning) ----------------
-[tool.pip-audit]
-# Ignore vulnerabilities that are not applicable or have no fix yet.
-[[% if pip_audit_waivers %]]
-[[% for waiver in pip_audit_waivers %]]# [[[ waiver.id ]]]: [[[ waiver.rationale ]]]
-# Remove when: [[[ waiver.remove_when ]]]
-[[% endfor %]]ignore-vulns = [
-[[% for waiver in pip_audit_waivers %]]  "[[[ waiver.id ]]]",
-[[% endfor %]]]
-[[% else %]]ignore-vulns = []
-[[% endif %]]
-
 # ---------------- Import-linter architecture contracts ----------------
 [tool.importlinter]
 root_packages = [

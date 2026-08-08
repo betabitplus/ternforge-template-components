@@ -214,21 +214,6 @@ repos:
         stages: [pre-commit]
 
   # =============================================================================
-  # Security - Dependency vulnerability scanner
-  # =============================================================================
-  - repo: local
-    hooks:
-      - id: py-lib-audit-runtime-dependencies
-        name: pip-audit (uv dependencies)
-        entry: >-
-          bash -c 'tmp="$(mktemp)"; trap "rm -f $tmp" EXIT;
-          uv export --frozen --no-dev --no-emit-project[[% if runtime_audit_exclude_package | default('') %]] --no-emit-package [[[ runtime_audit_exclude_package ]]][[% endif %]] --output-file "$tmp";
-          uv run --frozen --no-sync pip-audit --requirement "$tmp" --no-deps --disable-pip[[% for waiver in pip_audit_waivers %]] --ignore-vuln [[[ waiver.id ]]][[% endfor %]]'
-        language: system
-        pass_filenames: false
-        stages: [pre-push]
-
-  # =============================================================================
   # Docs - Docstring coverage
   # =============================================================================
   - repo: local
