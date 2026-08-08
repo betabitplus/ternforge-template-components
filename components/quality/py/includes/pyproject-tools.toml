@@ -302,20 +302,10 @@ run.source = [ "src" ]
 # ---------------- pytest coverage ----------------
 report.fail_under = 1
 
-# ---------------- Commitizen (conventional commits + changelog) ----------------
+# ---------------- Commitizen (commit-message validation only) ----------------
 [tool.commitizen]
-# Version management
 name = "cz_conventional_commits"
 allowed_prefixes = [ "Merge", "Revert", "WIP" ]
-version_provider = "uv"
-# Commit message settings
-major_version_zero = true
-tag_format = "v$version"
-annotated_tag = true
-# Changelog configuration
-changelog_file = "CHANGELOG.md"
-changelog_incremental = true
-update_changelog_on_bump = true
 
 # ---------------- Ternforge project manifest ----------------
 [tool.ternforge]
