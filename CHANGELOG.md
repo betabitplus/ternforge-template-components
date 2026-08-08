@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.3...v1.7.4) (2026-08-08)
+
+
+### Bug Fixes
+
+* simplify Python CI contract ([#66](https://github.com/betabitplus/ternforge-template-components/issues/66)) ([7e84281](https://github.com/betabitplus/ternforge-template-components/commit/7e842817b11294493852ab371e733e02227f9ba2))
+
 ## [1.7.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.2...v1.7.3) (2026-08-08)
 
 
