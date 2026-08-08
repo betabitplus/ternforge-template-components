@@ -31,7 +31,7 @@ dev = [
   "pyproject-fmt>=2.23.0",
   # Shared repo tooling and test support
   "py-lib-policy @ git+https://github.com/betabitplus/ternforge-tooling-py-policy.git@v1.1.2",
-  "py-lib-testkit @ git+https://github.com/betabitplus/ternforge-tooling-py-testkit.git@v1.1.2",
+  "py-lib-testkit @ git+https://github.com/betabitplus/ternforge-tooling-py-testkit.git@v1.1.3",
   "pyright>=1.1.410",
   # Test runner and plugins
   "pytest>=9.1.0",
