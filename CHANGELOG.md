@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.12...v1.7.0) (2026-08-08)
+
+
+### Features
+
+* dispatch released component changes ([#54](https://github.com/betabitplus/ternforge-template-components/issues/54)) ([d48240e](https://github.com/betabitplus/ternforge-template-components/commit/d48240e515a34bb8e05bf9e1a725c6f2405a0d58))
+
 ## [1.6.12](https://github.com/betabitplus/ternforge-template-components/compare/v1.6.11...v1.6.12) (2026-08-08)
 
 
