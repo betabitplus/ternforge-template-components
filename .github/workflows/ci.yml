@@ -4,8 +4,6 @@ on:
   pull_request:
     branches: [main]
     types: [opened, reopened, synchronize, edited]
-  push:
-    branches-ignore: [main]
   workflow_dispatch:
 
 permissions:
