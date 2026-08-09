@@ -1,7 +1,7 @@
 ---
 name: public-boundary-e2e
 doc_type: verification
-description: E2E proof for the baseline public config boundary. Use when you need to confirm the starter public package can install and read config through supported imports.
+description: E2E proof for the baseline public config boundary. Use when you need to confirm the generated public package can install and read config through supported imports.
 ---
 
 # Public Boundary E2E
