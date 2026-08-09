@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.4...v1.7.5) (2026-08-09)
+
+
+### Bug Fixes
+
+* protect release credentials ([#70](https://github.com/betabitplus/ternforge-template-components/issues/70)) ([36675af](https://github.com/betabitplus/ternforge-template-components/commit/36675af681cb7424339e2e6b471fb014d5be73c3))
+
 ## [1.7.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.3...v1.7.4) (2026-08-08)
 
 
