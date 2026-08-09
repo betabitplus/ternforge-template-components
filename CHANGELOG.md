@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.5...v1.7.6) (2026-08-09)
+
+
+### Bug Fixes
+
+* **deps:** use current Ternforge tooling releases ([#72](https://github.com/betabitplus/ternforge-template-components/issues/72)) ([365a1b4](https://github.com/betabitplus/ternforge-template-components/commit/365a1b40ab10f7f2522ed93b3349ea1a007dd7f0))
+
 ## [1.7.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.4...v1.7.5) (2026-08-09)
 
 
