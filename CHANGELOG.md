@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.7...v1.7.8) (2026-08-09)
+
+
+### Bug Fixes
+
+* preserve canonical uv section spacing ([#76](https://github.com/betabitplus/ternforge-template-components/issues/76)) ([f478948](https://github.com/betabitplus/ternforge-template-components/commit/f47894897cf75507bd0f9d830af0dd43c8781fe1))
+
 ## [1.7.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.6...v1.7.7) (2026-08-09)
 
 
