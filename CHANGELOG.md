@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.6...v1.7.7) (2026-08-09)
+
+
+### Bug Fixes
+
+* render canonical Python project metadata ([#74](https://github.com/betabitplus/ternforge-template-components/issues/74)) ([72e4cbf](https://github.com/betabitplus/ternforge-template-components/commit/72e4cbf5c28aef0a06c83249e80438c30ad1ed28))
+
 ## [1.7.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.5...v1.7.6) (2026-08-09)
 
 
