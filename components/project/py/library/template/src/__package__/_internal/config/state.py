@@ -10,7 +10,8 @@ from __future__ import annotations
 from threading import RLock
 
 from py_lib_runtime import get_logger
-[[[ "\n" if ((template_profile if template_profile is defined else "python-lib-standard") != "python-starter-platform") else "" ]]]from [[[ package_name ]]]._internal.config.assembly import (
+
+from [[[ package_name ]]]._internal.config.assembly import (
     build_default_config,
 )
 from [[[ package_name ]]]._internal.config.models import (
@@ -38,11 +39,7 @@ def get_config(
 def install_config(config: object) -> [[[ config_class_name ]]]:
     """Install a validated runtime configuration snapshot."""
     if not isinstance(config, [[[ config_class_name ]]]):
-[[% if (template_profile if template_profile is defined else "python-lib-standard") == "python-starter-platform" %]]
         msg = f"install_config() expects a {[[[ config_class_name ]]].__name__} instance."
-[[% else %]]
-        msg = f"install_config() expects a {[[[ config_class_name ]]].__name__} instance."
-[[% endif %]]
         raise TypeError(msg)
 
     validate_config(config)
