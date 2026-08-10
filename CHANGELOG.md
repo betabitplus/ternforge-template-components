@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.10](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.9...v1.7.10) (2026-08-10)
+
+
+### Bug Fixes
+
+* require policy in Python components ([#81](https://github.com/betabitplus/ternforge-template-components/issues/81)) ([eea245a](https://github.com/betabitplus/ternforge-template-components/commit/eea245aac4120d4fa70f4938ecffe61f1570e658))
+
 ## [1.7.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.8...v1.7.9) (2026-08-09)
 
 
