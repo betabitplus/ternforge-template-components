@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.12](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.11...v1.7.12) (2026-08-10)
+
+
+### Bug Fixes
+
+* update Python policy pin ([#85](https://github.com/betabitplus/ternforge-template-components/issues/85)) ([d6d1599](https://github.com/betabitplus/ternforge-template-components/commit/d6d15991675a2df2f904f00f6edd6c0093440615))
+
 ## [1.7.11](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.10...v1.7.11) (2026-08-10)
 
 
