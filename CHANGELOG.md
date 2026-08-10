@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.14](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.13...v1.7.14) (2026-08-10)
+
+
+### Bug Fixes
+
+* align generated Python product configuration ([#89](https://github.com/betabitplus/ternforge-template-components/issues/89)) ([e1da90e](https://github.com/betabitplus/ternforge-template-components/commit/e1da90e8d37714de274c0b56679ab6d93f40a9b7))
+
 ## [1.7.13](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.12...v1.7.13) (2026-08-10)
 
 
