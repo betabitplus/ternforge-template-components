@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.11](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.10...v1.7.11) (2026-08-10)
+
+
+### Bug Fixes
+
+* align testkit runtime source ([#83](https://github.com/betabitplus/ternforge-template-components/issues/83)) ([6a2c3ef](https://github.com/betabitplus/ternforge-template-components/commit/6a2c3ef0ea3de330958a69d9cc22de6fd087e42f))
+
 ## [1.7.10](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.9...v1.7.10) (2026-08-10)
 
 
