@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.16](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.15...v1.7.16) (2026-08-10)
+
+
+### Bug Fixes
+
+* publish generated uv 0.12.3 update ([#94](https://github.com/betabitplus/ternforge-template-components/issues/94)) ([3b4edbb](https://github.com/betabitplus/ternforge-template-components/commit/3b4edbbd1cb7ad87bb04a42b2d4fec9a684d8411))
+
 ## [1.7.15](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.14...v1.7.15) (2026-08-10)
 
 
