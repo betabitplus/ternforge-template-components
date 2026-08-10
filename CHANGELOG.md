@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.15](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.14...v1.7.15) (2026-08-10)
+
+
+### Bug Fixes
+
+* update generated Python tooling pins ([#91](https://github.com/betabitplus/ternforge-template-components/issues/91)) ([bd4de69](https://github.com/betabitplus/ternforge-template-components/commit/bd4de694046869a1d1374af1df4e11491aef8c25))
+
 ## [1.7.14](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.13...v1.7.14) (2026-08-10)
 
 
