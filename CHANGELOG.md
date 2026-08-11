@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.19](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.18...v1.7.19) (2026-08-11)
+
+
+### Bug Fixes
+
+* normalize protocol readme eof ([#102](https://github.com/betabitplus/ternforge-template-components/issues/102)) ([1bcd9ea](https://github.com/betabitplus/ternforge-template-components/commit/1bcd9ea5d5eea536ef93938a6b0fbf5edae45216))
+
 ## [1.7.18](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.17...v1.7.18) (2026-08-11)
 
 
