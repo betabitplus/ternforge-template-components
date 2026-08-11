@@ -145,8 +145,7 @@ ignore-nested-functions = false
 ignore-nested-classes = false
 ignore-setters = false
 ignore-overloaded-functions = true
-ignore-regex = [ "^wrapper$" ]
-exclude = [ ".agents", ".artifact-smoke*", "docs", "scripts", "tests" ]
+exclude = [ ".agents", "docs", "scripts", "tests" ]
 color = true
 verbose = 1
 quiet = false
@@ -188,7 +187,6 @@ ignore = [
 [tool.deptry]
 extend_exclude = [
   ".agents",
-  ".artifact-smoke*",
   ".venv",
   "examples",
   "scripts",
@@ -213,7 +211,6 @@ exclude = [
   "**/__pycache__",
   "*.egg-info",
   ".agents",
-  ".artifact-smoke*",
   ".devcontainer",
   ".git",
   ".github",
@@ -252,7 +249,6 @@ src.exclude = [
   "**/__pycache__/",
   "*.egg-info/",
   ".agents/",
-  ".artifact-smoke*/",
   ".devcontainer/",
   ".git/",
   ".github/",
@@ -277,7 +273,6 @@ rules.unresolved-attribute = "ignore"
 ini_options.pythonpath = [ ".", "src" ]  # Enable imports from project root and src/
 ini_options.norecursedirs = [
   "*.egg-info",
-  ".artifact-smoke*",
   ".git",
   ".hypothesis",
   ".pytest_cache",
