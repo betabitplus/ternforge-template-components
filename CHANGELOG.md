@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.17](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.16...v1.7.17) (2026-08-11)
+
+
+### Bug Fixes
+
+* clean stale changelog residue ([#98](https://github.com/betabitplus/ternforge-template-components/issues/98)) ([b48bdf3](https://github.com/betabitplus/ternforge-template-components/commit/b48bdf3874f490e066cdf79264e9bf285af1985a))
+
 ## [1.7.16](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.15...v1.7.16) (2026-08-10)
 
 
