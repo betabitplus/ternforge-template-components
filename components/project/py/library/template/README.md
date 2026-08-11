@@ -2,7 +2,7 @@
 
 [[[ project_description ]]]
 
-This project uses the shared py-lib project structure: source-layout
+This project uses the Ternforge Python-library structure: source-layout
 packaging, a small public package boundary, private implementation folders,
 layered tests, package docs, runnable public API examples, local workbench
 probes, and reusable project tooling.
