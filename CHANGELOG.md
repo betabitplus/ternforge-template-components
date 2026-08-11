@@ -49,13 +49,6 @@
 
 * require policy in Python components ([#81](https://github.com/betabitplus/ternforge-template-components/issues/81)) ([eea245a](https://github.com/betabitplus/ternforge-template-components/commit/eea245aac4120d4fa70f4938ecffe61f1570e658))
 
-## [1.7.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.8...v1.7.9) (2026-08-09)
-
-
-### Bug Fixes
-
-* remove stale starter wording ([#79](https://github.com/betabitplus/ternforge-template-components/issues/79)) ([d598ef9](https://github.com/betabitplus/ternforge-template-components/commit/d598ef9605584bd014ff4bc0ff9c26d9576f2b96))
-
 ## [1.7.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.7...v1.7.8) (2026-08-09)
 
 
