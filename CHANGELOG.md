@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.18](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.17...v1.7.18) (2026-08-11)
+
+
+### Bug Fixes
+
+* remove planning protocol compatibility path ([#100](https://github.com/betabitplus/ternforge-template-components/issues/100)) ([e9613e3](https://github.com/betabitplus/ternforge-template-components/commit/e9613e36884ca948821e2535db0bfa1de3275985))
+
 ## [1.7.17](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.16...v1.7.17) (2026-08-11)
 
 
