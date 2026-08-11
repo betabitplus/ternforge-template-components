@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.20](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.19...v1.7.20) (2026-08-11)
+
+
+### Bug Fixes
+
+* exclude Copier metadata from typos ([#104](https://github.com/betabitplus/ternforge-template-components/issues/104)) ([8900701](https://github.com/betabitplus/ternforge-template-components/commit/8900701515ce1a21275abc4651818a55bf8db051))
+
 ## [1.7.19](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.18...v1.7.19) (2026-08-11)
 
 
