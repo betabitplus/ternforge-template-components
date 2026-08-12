@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.23](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.22...v1.7.23) (2026-08-12)
+
+
+### Bug Fixes
+
+* honor typos file exclusions ([#116](https://github.com/betabitplus/ternforge-template-components/issues/116)) ([58a24e3](https://github.com/betabitplus/ternforge-template-components/commit/58a24e33ebd1b588c02cc5c8a6e4650a3017b029))
+
 ## [1.7.22](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.21...v1.7.22) (2026-08-12)
 
 
