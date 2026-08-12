@@ -1,6 +1,15 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
-  pep621: {
-    managerFilePatterns: ["/(^|/)pyproject-uv\\.toml$/"],
-  },
+  customManagers: [
+    {
+      customType: "jsonata",
+      managerFilePatterns: ["/(^|/)pyproject-uv\\.toml$/"],
+      fileFormat: "toml",
+      matchStrings: [
+        "$each(tool.uv.sources, function($source, $name) { $source.git and $source.tag ? {\"depName\": $name, \"packageName\": $source.git, \"currentValue\": $source.tag} })",
+      ],
+      datasourceTemplate: "git-tags",
+      versioningTemplate: "semver-coerced",
+    },
+  ],
 }
