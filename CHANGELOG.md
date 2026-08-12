@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.26](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.25...v1.7.26) (2026-08-12)
+
+
+### Bug Fixes
+
+* align bootstrap tooling comment ([#122](https://github.com/betabitplus/ternforge-template-components/issues/122)) ([d099311](https://github.com/betabitplus/ternforge-template-components/commit/d0993111a3eb8d6b9c98f72c49a840fec7f964ce))
+
 ## [1.7.25](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.24...v1.7.25) (2026-08-12)
 
 
