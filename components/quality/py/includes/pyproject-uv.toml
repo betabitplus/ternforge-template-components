@@ -1,12 +1,6 @@
 [tool.uv]
 required-version = "==0.12.3"
-# [[% if package_name != "py_lib_policy" %]]
 sources.py-lib-policy = { git = "https://github.com/betabitplus/ternforge-tooling-py-policy.git", tag = "v1.1.8" }
-# [[% endif %]]
-# [[% if package_name not in ["py_lib_policy", "py_lib_runtime"] %]]
 sources.py-lib-runtime = { git = "https://github.com/betabitplus/ternforge-tooling-py-runtime.git", tag = "v1.1.5" }
-# [[% endif %]]
-# [[% if package_name not in ["py_lib_policy", "py_lib_runtime", "py_lib_testkit"] %]]
 sources.py-lib-testkit = { git = "https://github.com/betabitplus/ternforge-tooling-py-testkit.git", tag = "v2.0.0" }
-# [[% endif %]]
 
