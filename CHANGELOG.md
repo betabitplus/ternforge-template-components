@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.7.28](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.27...v1.7.28) (2026-08-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency betabitplus/ternforge-infra-updates to v0.2.5 ([#106](https://github.com/betabitplus/ternforge-template-components/issues/106)) ([297fc9c](https://github.com/betabitplus/ternforge-template-components/commit/297fc9cd4c0b0d51d909ab39f57a39f0fbac96a2))
+* **deps:** update dependency betabitplus/ternforge-infra-updates to v0.2.9 ([#129](https://github.com/betabitplus/ternforge-template-components/issues/129)) ([3a44749](https://github.com/betabitplus/ternforge-template-components/commit/3a44749acafbe1b52dbdb31b3e60eff60200a9a8))
+* pin devcontainer distro explicitly ([#138](https://github.com/betabitplus/ternforge-template-components/issues/138)) ([b0d54c3](https://github.com/betabitplus/ternforge-template-components/commit/b0d54c30b66e12efbccf1d447f2f3729fdee929f))
+* use default frozen hook replacement ([#128](https://github.com/betabitplus/ternforge-template-components/issues/128)) ([3251432](https://github.com/betabitplus/ternforge-template-components/commit/3251432a624d2c326b7ea8b8e7853fa82f3421f2))
+
 ## [1.7.27](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.26...v1.7.27) (2026-08-12)
 
 
