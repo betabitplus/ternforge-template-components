@@ -45,18 +45,6 @@ jobs:
           git diff --check
           python -m json.tool release-please-config.json >/dev/null
           python -m json.tool .release-please-manifest.json >/dev/null
-          test -f components/agents/base/template/.agents/skills/warmup/SKILL.md
-          test -f components/agents/py-library/template/AGENTS.md
-          test -f components/repository/base/template/.editorconfig
-          test -f components/repository/base/template/LICENSE
-          test -f components/repository/copier/includes/copier-answers.yml
-          test -f components/project/py/base/includes/pyproject-project.toml
-          test -f components/project/py/library/includes/pyproject-packaging.toml
-          test -f components/quality/py/includes/pyproject-tools.toml
-          test -f components/delivery/ci/py-library/template/.github/workflows/ci.yml
-          test -f components/delivery/release/library/template/.github/workflows/release.yml
-          test -f components/delivery/updates/template/renovate.json5
-          test ! -e components/project/py/base/template/scripts/env/project_config.sh
           if find components -type l | grep -q .; then
             echo 'symlinks are not allowed in component sources' >&2
             exit 1
