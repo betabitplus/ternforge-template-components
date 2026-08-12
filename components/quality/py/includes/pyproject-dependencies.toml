@@ -28,8 +28,8 @@ dev = [
   "pillow>=12.2",
   "pip-audit>=2.10.1",
   "pre-commit>=4.6.0",
-  # Shared repo tooling and test support
 [[% if package_name != "py_lib_policy" %]]
+  # Shared repo tooling and test support
   "py-lib-policy",
 [[% endif %]]
 [[% if package_name not in ["py_lib_policy", "py_lib_runtime", "py_lib_testkit"] %]]
