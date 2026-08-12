@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.25](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.24...v1.7.25) (2026-08-12)
+
+
+### Bug Fixes
+
+* simplify bootstrap tooling template ([#120](https://github.com/betabitplus/ternforge-template-components/issues/120)) ([55b1444](https://github.com/betabitplus/ternforge-template-components/commit/55b144487358d45c83069b0930a1e078301bb3ba))
+
 ## [1.7.24](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.23...v1.7.24) (2026-08-12)
 
 
