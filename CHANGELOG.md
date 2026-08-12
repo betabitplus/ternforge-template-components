@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.27](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.26...v1.7.27) (2026-08-12)
+
+
+### Bug Fixes
+
+* pin template update inputs ([#124](https://github.com/betabitplus/ternforge-template-components/issues/124)) ([727104d](https://github.com/betabitplus/ternforge-template-components/commit/727104d18cd2ba175748ca1e1029fefae9c7be31))
+
 ## [1.7.26](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.25...v1.7.26) (2026-08-12)
 
 
