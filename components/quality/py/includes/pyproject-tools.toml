@@ -306,7 +306,6 @@ allowed_prefixes = [ "Merge", "Revert", "WIP" ]
 [tool.ternforge]
 primary_package = "[[[ package_name ]]]"
 package_names = [ "[[[ package_name ]]]" ]
-library_lane = "[[[ library_lane ]]]"
 env_prefix = "[[[ env_prefix ]]]"
 secrets.env_files = []
 
