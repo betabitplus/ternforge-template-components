@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.22](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.21...v1.7.22) (2026-08-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency py-lib-runtime to v1.1.5 ([#111](https://github.com/betabitplus/ternforge-template-components/issues/111)) ([778ce6b](https://github.com/betabitplus/ternforge-template-components/commit/778ce6bd7a4c02eba49c8c43baf89e4260aad100))
+
 ## [1.7.21](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.20...v1.7.21) (2026-08-12)
 
 
