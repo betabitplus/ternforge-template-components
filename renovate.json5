@@ -1,5 +1,22 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  packageRules: [
+    {
+      description: "Component source updates are product fixes",
+      matchFileNames: ["components/**"],
+      semanticCommitType: "fix",
+    },
+    {
+      description: "Keep uv execution inputs together",
+      matchPackageNames: ["astral-sh/uv", "ghcr.io/astral-sh/uv"],
+      groupName: "uv execution",
+    },
+    {
+      description: "Keep the devcontainer on the supported Python lane",
+      matchPackageNames: ["mcr.microsoft.com/devcontainers/python"],
+      allowedVersions: "/^3\\.13(?:$|[-.])/",
+    },
+  ],
   customManagers: [
     {
       customType: "jsonata",
@@ -10,6 +27,32 @@
       ],
       datasourceTemplate: "git-tags",
       versioningTemplate: "semver-coerced",
+    },
+    {
+      customType: "regex",
+      managerFilePatterns: ["/(^|/)pyproject-(?:dependencies|project)\\.toml$/"],
+      matchStrings: ["\"(?<depName>[A-Za-z0-9_.-]+)>=(?<currentValue>[^\"]+)\""],
+      datasourceTemplate: "pypi",
+      versioningTemplate: "pep440",
+    },
+    {
+      customType: "regex",
+      managerFilePatterns: ["/(^|/)components/project/py/base/template/\\.devcontainer/Dockerfile$/"],
+      matchStrings: ["ARG DIRENV_VERSION=(?<currentValue>[^\\s]+)"],
+      depNameTemplate: "direnv",
+      datasourceTemplate: "deb",
+      versioningTemplate: "deb",
+      registryUrlTemplate: "https://deb.debian.org/debian?suite=trixie&components=main&binaryArch=amd64",
+    },
+    {
+      customType: "regex",
+      managerFilePatterns: ["/(^|/)components/quality/py/template/\\.pre-commit-config\\.yaml$/"],
+      matchStrings: [
+        "  - repo: https://github\\.com/(?<depName>[^\\s]+)\\n    rev: (?<currentDigest>[a-f0-9]{40}) # (?<currentValue>[^\\s]+)",
+      ],
+      datasourceTemplate: "github-tags",
+      versioningTemplate: "semver-coerced",
+      autoReplaceStringTemplate: "  - repo: https://github.com/{{{depName}}}\\n    rev: {{{newDigest}}} # {{{newValue}}}",
     },
   ],
 }
