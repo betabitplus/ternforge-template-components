@@ -52,7 +52,6 @@
       ],
       datasourceTemplate: "github-tags",
       versioningTemplate: "semver-coerced",
-      autoReplaceStringTemplate: "  - repo: https://github.com/{{{depName}}}\\n    rev: {{{newDigest}}} # {{{newValue}}}",
     },
   ],
 }
