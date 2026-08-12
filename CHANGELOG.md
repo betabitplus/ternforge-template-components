@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.21](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.20...v1.7.21) (2026-08-12)
+
+
+### Bug Fixes
+
+* make Renovate read tooling source fragments ([#108](https://github.com/betabitplus/ternforge-template-components/issues/108)) ([c49f4e1](https://github.com/betabitplus/ternforge-template-components/commit/c49f4e18b3957aaec9e101878220c3a3094d0041))
+* remove library lane from Python component ([#114](https://github.com/betabitplus/ternforge-template-components/issues/114)) ([e646183](https://github.com/betabitplus/ternforge-template-components/commit/e6461835d7589351b4ac28aa8da1a15197cf06f0))
+
 ## [1.7.20](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.19...v1.7.20) (2026-08-11)
 
 
