@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.30](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.29...v1.7.30) (2026-08-13)
+
+
+### Bug Fixes
+
+* support private source repositories ([#143](https://github.com/betabitplus/ternforge-template-components/issues/143)) ([f3d7ec2](https://github.com/betabitplus/ternforge-template-components/commit/f3d7ec2e24d5e6c2e36835d9d4bf15bde5b014da))
+
 ## [1.7.29](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.28...v1.7.29) (2026-08-13)
 
 
