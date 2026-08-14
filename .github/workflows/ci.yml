@@ -14,7 +14,7 @@ jobs:
   required:
     name: ci / required
     # Lightweight checks use the separate container-backed runner pool.
-    runs-on: ubuntu-slim
+    runs-on: ${{ vars.TERNFORGE_RUNNER || 'ubuntu-slim' }}
     steps:
       - name: Validate pull request title
         if: github.event_name == 'pull_request'
