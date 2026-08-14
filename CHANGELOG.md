@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.31...v1.8.0) (2026-08-14)
+
+
+### Features
+
+* support private local CI routing ([#147](https://github.com/betabitplus/ternforge-template-components/issues/147)) ([d9c645c](https://github.com/betabitplus/ternforge-template-components/commit/d9c645cdb88429a5fb35e9aa0d8a30f206f04fdc))
+
 ## [1.7.31](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.30...v1.7.31) (2026-08-14)
 
 
