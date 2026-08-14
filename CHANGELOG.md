@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.31](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.30...v1.7.31) (2026-08-14)
+
+
+### Bug Fixes
+
+* align infra-ci references on v5.0.7 ([#145](https://github.com/betabitplus/ternforge-template-components/issues/145)) ([8992818](https://github.com/betabitplus/ternforge-template-components/commit/89928188b00318c9cd3e87b0d1da7d8eb4d1e35d))
+
 ## [1.7.30](https://github.com/betabitplus/ternforge-template-components/compare/v1.7.29...v1.7.30) (2026-08-13)
 
 
