@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.5...v1.8.6) (2026-08-15)
+
+
+### Bug Fixes
+
+* preserve lockfile ownership boundary ([#176](https://github.com/betabitplus/ternforge-template-components/issues/176)) ([e61bec5](https://github.com/betabitplus/ternforge-template-components/commit/e61bec510bf47a071cceadff68bfa8f238ff176b))
+
 ## [1.8.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.4...v1.8.5) (2026-08-15)
 
 
