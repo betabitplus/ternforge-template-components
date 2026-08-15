@@ -17,7 +17,7 @@ dev = [
   "interrogate>=1.7",
   # Interactive development
   "ipykernel>=7.3.0",
-  "ipython>=9.14.1",
+  "ipython>=9.16.1",
   "mdformat>=0.7.22",
   "mdformat-beautysh>=1.0.0",
   "mdformat-frontmatter>=2.1.2",
