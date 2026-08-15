@@ -35,7 +35,7 @@ dev = [
 [[% if package_name not in ["py_lib_policy", "py_lib_runtime", "py_lib_testkit"] %]]
   "py-lib-testkit",
 [[% endif %]]
-  "pyproject-fmt>=2.23.0",
+  "pyproject-fmt>=2.27.1",
   "pyright>=1.1.410",
   # Test runner and plugins
   "pytest>=9.1.0",
