@@ -11,7 +11,7 @@ dev = [
   "flake8>=7.3",
   "flake8-class-attributes-order>=0.3",
   "flake8-cognitive-complexity>=0.1",
-  "hypothesis>=6.155.3",
+  "hypothesis>=6.165.9",
   "import-linter>=2.11",
   # Docs consistency
   "interrogate>=1.7",
