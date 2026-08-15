@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.4...v1.8.5) (2026-08-15)
+
+
+### Bug Fixes
+
+* **deps:** update betabitplus/ternforge-infra-ci action to v5.1.5 ([#175](https://github.com/betabitplus/ternforge-template-components/issues/175)) ([8cde7dd](https://github.com/betabitplus/ternforge-template-components/commit/8cde7ddc17b118e3dbc70e6e000c408f94942174))
+* drop redundant Python build frontends ([457e8b5](https://github.com/betabitplus/ternforge-template-components/commit/457e8b5e0232278a39039ccb53515f288665c4a0))
+
 ## [1.8.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.3...v1.8.4) (2026-08-14)
 
 
