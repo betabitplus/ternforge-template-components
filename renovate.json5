@@ -20,7 +20,7 @@
   customManagers: [
     {
       customType: "jsonata",
-      managerFilePatterns: ["/(^|/)pyproject-uv\\.toml$/"],
+      managerFilePatterns: ["/(^|/)components/quality/py/includes/uv/pyproject\\.toml$/"],
       fileFormat: "toml",
       matchStrings: [
         "$each(tool.uv.sources, function($source, $name) { $source.git and $source.tag ? {\"depName\": $name, \"packageName\": $source.git, \"currentValue\": $source.tag} })",
