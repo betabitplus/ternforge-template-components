@@ -30,13 +30,6 @@
     },
     {
       customType: "regex",
-      managerFilePatterns: ["/(^|/)pyproject-(?:dependencies|project)\\.toml$/"],
-      matchStrings: ["\"(?<depName>[A-Za-z0-9_.-]+)>=(?<currentValue>[^\"]+)\""],
-      datasourceTemplate: "pypi",
-      versioningTemplate: "pep440",
-    },
-    {
-      customType: "regex",
       managerFilePatterns: ["/(^|/)components/project/py/base/template/\\.devcontainer/Dockerfile$/"],
       matchStrings: ["ARG DIRENV_VERSION=(?<currentValue>[^\\s]+)"],
       depNameTemplate: "direnv",
