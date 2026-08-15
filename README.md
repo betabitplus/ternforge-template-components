@@ -6,8 +6,8 @@ Components are organized by responsibility and contain only `template/` files
 or reusable Jinja `includes/`. A final template owns every output path and
 selects released component files explicitly through Vendir.
 
-Current released components cover the minimal infrastructure repository and
-the complete Python-library product:
+Current released components cover the reusable responsibilities used by the
+complete Python-library product:
 
 - `components/agents/base` and `components/agents/py-library`
 - `components/repository/base` and `components/repository/copier`
