@@ -38,7 +38,7 @@ dev = [
   "pyproject-fmt>=2.23.0",
   "pyright>=1.1.410",
   # Test runner and plugins
-  "pytest>=9.1.0",
+  "pytest>=9.1.1",
   "pytest-cov>=7.1.0",
   "pytest-randomly>=4.1.0",
   "pytest-recording>=0.13.4",
