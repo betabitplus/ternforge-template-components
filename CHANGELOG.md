@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.6...v1.8.7) (2026-08-15)
+
+
+### Bug Fixes
+
+* expose canonical uv version file ([#178](https://github.com/betabitplus/ternforge-template-components/issues/178)) ([619bac8](https://github.com/betabitplus/ternforge-template-components/commit/619bac897a797ee27330f3eedcd2ffdf84712a35))
+
 ## [1.8.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.5...v1.8.6) (2026-08-15)
 
 
