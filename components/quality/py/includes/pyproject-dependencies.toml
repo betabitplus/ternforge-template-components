@@ -27,7 +27,7 @@ dev = [
   "nest-asyncio>=1.6",
   "pillow>=12.2",
   "pip-audit>=2.10.1",
-  "pre-commit>=4.6.0",
+  "pre-commit>=4.6.2",
 [[% if package_name != "py_lib_policy" %]]
   # Shared repo tooling and test support
   "py-lib-policy",
