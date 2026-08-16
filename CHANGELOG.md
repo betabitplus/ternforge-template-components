@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.16](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.15...v1.8.16) (2026-08-16)
+
+
+### Bug Fixes
+
+* split role-specific uv config from manifest fragment ([#199](https://github.com/betabitplus/ternforge-template-components/issues/199)) ([4a3f739](https://github.com/betabitplus/ternforge-template-components/commit/4a3f739580f5f308f52789b2196b8e4b1adc5ae1))
+
 ## [1.8.15](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.14...v1.8.15) (2026-08-16)
 
 
