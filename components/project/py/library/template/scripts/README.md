@@ -48,8 +48,8 @@ uv run pytest tests/[[[ package_name ]]]/e2e/public_boundary -q --no-cov
 Check and apply released Ternforge template updates with Copier:
 
 ```bash
-uvx --from copier==9.17.0 copier check-update
-uvx --from copier==9.17.0 copier update
+uvx --from copier==9.17.1 copier check-update
+uvx --from copier==9.17.1 copier update
 ```
 
 Run structural and artifact checks directly when needed:
