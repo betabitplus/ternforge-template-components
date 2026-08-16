@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.8.17](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.16...v1.8.17) (2026-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency py-lib-policy to v1.1.10 ([#201](https://github.com/betabitplus/ternforge-template-components/issues/201)) ([7ccae5d](https://github.com/betabitplus/ternforge-template-components/commit/7ccae5d79bb85cff7764764a23331973a6635cf4))
+* **deps:** update dependency py-lib-testkit to v2.0.2 ([#202](https://github.com/betabitplus/ternforge-template-components/issues/202)) ([9d913ea](https://github.com/betabitplus/ternforge-template-components/commit/9d913ea1bb7ebfba6a6e7dae7c2b3a6455a0877c))
+* remove runtime self dependency override ([#204](https://github.com/betabitplus/ternforge-template-components/issues/204)) ([15d4729](https://github.com/betabitplus/ternforge-template-components/commit/15d4729f5e386262fffae77a0504b4ed63328779))
+
 ## [1.8.16](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.15...v1.8.16) (2026-08-16)
 
 
