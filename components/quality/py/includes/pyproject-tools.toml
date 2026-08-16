@@ -1,8 +1,3 @@
-[[% if package_name != "py_lib_runtime" %]]
-override-dependencies = [ "py-lib-runtime" ]
-sources.py-lib-runtime = { git = "https://github.com/betabitplus/ternforge-tooling-py-runtime.git", tag = "v1.1.6" }
-[[% endif %]]
-
 # ---------------- Ruff configuration ----------------
 [tool.ruff]
 # Target the project runtime Python version.
