@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.18](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.17...v1.8.18) (2026-08-16)
+
+
+### Bug Fixes
+
+* preserve flake8 gate semantics ([#205](https://github.com/betabitplus/ternforge-template-components/issues/205)) ([d4f2805](https://github.com/betabitplus/ternforge-template-components/commit/d4f2805ee0554a1f9a72533823a3da714743af33))
+
 ## [1.8.17](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.16...v1.8.17) (2026-08-16)
 
 
