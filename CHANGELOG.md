@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.15](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.14...v1.8.15) (2026-08-16)
+
+
+### Bug Fixes
+
+* keep uv component manifest parseable ([#197](https://github.com/betabitplus/ternforge-template-components/issues/197)) ([ced334c](https://github.com/betabitplus/ternforge-template-components/commit/ced334c6bde1b62095738e5a7a3170fef80af222))
+
 ## [1.8.14](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.13...v1.8.14) (2026-08-16)
 
 
