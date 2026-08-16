@@ -25,9 +25,13 @@ classifiers = [
   "Typing :: Typed",
 ]
 # --- Main Dependencies ---
+[[% if package_name == "py_lib_runtime" %]]
+dependencies = []
+[[% else %]]
 dependencies = [
   "py-lib-runtime",
 ]
+[[% endif %]]
 # --- Project URLs ---
 urls."Bug Tracker" = "https://github.com/[[[ github_owner ]]]/[[[ repository_name ]]]/issues"
 urls.Documentation = "https://github.com/[[[ github_owner ]]]/[[[ repository_name ]]]/tree/main/docs"
