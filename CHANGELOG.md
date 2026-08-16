@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.12](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.11...v1.8.12) (2026-08-16)
+
+
+### Bug Fixes
+
+* let root runtime source override transitive pin ([#191](https://github.com/betabitplus/ternforge-template-components/issues/191)) ([167a30d](https://github.com/betabitplus/ternforge-template-components/commit/167a30df65b54fbf69f326b6aea13878889a181b))
+
 ## [1.8.11](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.10...v1.8.11) (2026-08-16)
 
 
