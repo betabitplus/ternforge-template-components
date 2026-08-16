@@ -305,7 +305,7 @@ repos:
         exclude: ^(\.agents/|logs/|data/|records/|prompts/|CHANGELOG\.md$)
 
   - repo: https://github.com/tcort/markdown-link-check
-    rev: 3a8992dcbb083a248671812c7027b6995ef88523 # v3.14.2
+    rev: 275c27c5035a5b4a656fe0e21a4c1403c118c767 # v3.15.0
     hooks:
       # markdown-link-check: Detects broken internal and external links
       - id: markdown-link-check
