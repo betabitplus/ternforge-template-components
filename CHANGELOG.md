@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.8...v1.8.9) (2026-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update betabitplus/ternforge-infra-ci action to v5.1.8 ([#183](https://github.com/betabitplus/ternforge-template-components/issues/183)) ([80b9506](https://github.com/betabitplus/ternforge-template-components/commit/80b9506d6cf1624e76c11c953b69aa67e4e2b2e0))
+
 ## [1.8.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.7...v1.8.8) (2026-08-15)
 
 
