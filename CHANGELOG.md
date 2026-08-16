@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.20](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.19...v1.8.20) (2026-08-16)
+
+
+### Bug Fixes
+
+* prepare devcontainer pre-commit cache ([#209](https://github.com/betabitplus/ternforge-template-components/issues/209)) ([3078799](https://github.com/betabitplus/ternforge-template-components/commit/3078799b6b54f95e08a9249584dc64b4fe788b4c))
+
 ## [1.8.19](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.18...v1.8.19) (2026-08-16)
 
 
