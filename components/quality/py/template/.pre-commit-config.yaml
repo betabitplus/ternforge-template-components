@@ -273,7 +273,7 @@ repos:
   # .env file linting
   # =============================================================================
   - repo: https://github.com/wemake-services/dotenv-linter
-    rev: dae6ea6a2e4bfa7b83f2a3c804dd8fbcb6906c37 # 0.7.0
+    rev: 0303ce7caee5b6fd6a22cb4e9836fe8a6503db30 # 0.9.0
     hooks:
       # dotenv-linter: Validates .env files for common issues
       - id: dotenv-linter
