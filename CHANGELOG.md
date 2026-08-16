@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.8.11](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.10...v1.8.11) (2026-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency copier to v9.17.1 ([#131](https://github.com/betabitplus/ternforge-template-components/issues/131)) ([465ab01](https://github.com/betabitplus/ternforge-template-components/commit/465ab017f121597eaa843556de1756fd4b021839))
+* **deps:** update dependency crate-ci/typos to v1.49.0 ([#137](https://github.com/betabitplus/ternforge-template-components/issues/137)) ([4cd02fd](https://github.com/betabitplus/ternforge-template-components/commit/4cd02fde410388d65572ba2960bf41210c98c70f))
+* **deps:** update dependency igorshubovych/markdownlint-cli to v0.49.1 ([#142](https://github.com/betabitplus/ternforge-template-components/issues/142)) ([0d80f86](https://github.com/betabitplus/ternforge-template-components/commit/0d80f8647a98b301ffb25f219b3f59655526d9cf))
+* **deps:** update dependency py-lib-policy to v1.1.9 ([#188](https://github.com/betabitplus/ternforge-template-components/issues/188)) ([ce50fb4](https://github.com/betabitplus/ternforge-template-components/commit/ce50fb48c907f5a0de08a073af5b0e06df717f91))
+* **deps:** update dependency py-lib-runtime to v1.1.6 ([#189](https://github.com/betabitplus/ternforge-template-components/issues/189)) ([044a0da](https://github.com/betabitplus/ternforge-template-components/commit/044a0da56096d3211a137a7a9fe05e01d0ebc2f2))
+* **deps:** update dependency py-lib-testkit to v2.0.1 ([#190](https://github.com/betabitplus/ternforge-template-components/issues/190)) ([3869a9b](https://github.com/betabitplus/ternforge-template-components/commit/3869a9bcba8761b67872faf5bc700ac078c8bfdd))
+* **deps:** update dependency tcort/markdown-link-check to v3.15.0 ([#158](https://github.com/betabitplus/ternforge-template-components/issues/158)) ([1376748](https://github.com/betabitplus/ternforge-template-components/commit/13767482d6001a33c59a6261f4ca1d95dcb58534))
+* **deps:** update dependency wemake-services/dotenv-linter to v0.9.0 ([#159](https://github.com/betabitplus/ternforge-template-components/issues/159)) ([eb1e764](https://github.com/betabitplus/ternforge-template-components/commit/eb1e76439bdb5d3e2333ba438ddcdef8cc3641e1))
+* **deps:** update ghcr.io/getsops/sops docker tag to v3.13.3 ([#162](https://github.com/betabitplus/ternforge-template-components/issues/162)) ([303062f](https://github.com/betabitplus/ternforge-template-components/commit/303062f2555cb397335a08abe516277c3e05145b))
+* **deps:** update uv execution to v0.12.5 ([#149](https://github.com/betabitplus/ternforge-template-components/issues/149)) ([4953280](https://github.com/betabitplus/ternforge-template-components/commit/495328078cd10898048541cf3bc373bdf018a564))
+
 ## [1.8.10](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.9...v1.8.10) (2026-08-16)
 
 
