@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.14](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.13...v1.8.14) (2026-08-16)
+
+
+### Bug Fixes
+
+* avoid runtime self override ([#195](https://github.com/betabitplus/ternforge-template-components/issues/195)) ([ca45e02](https://github.com/betabitplus/ternforge-template-components/commit/ca45e02870e9062acff9e0e6388f45778c710f0e))
+
 ## [1.8.13](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.12...v1.8.13) (2026-08-16)
 
 
