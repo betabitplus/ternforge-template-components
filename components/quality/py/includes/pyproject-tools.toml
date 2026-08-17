@@ -309,7 +309,16 @@ package_names = [ "[[[ package_name ]]]" ]
 env_prefix = "[[[ env_prefix ]]]"
 secrets.env_files = []
 
-# ---------------- Import-linter architecture contracts ----------------
+[[% if pip_audit_waivers %]]
+# ---------------- Pip Audit (repository-scoped vulnerability waivers) ----------------
+[tool.pip-audit]
+[[% for waiver in pip_audit_waivers %]]# [[[ waiver.id ]]]: [[[ waiver.rationale ]]]
+# Remove when: [[[ waiver.remove_when ]]]
+[[% endfor %]]ignore-vulns = [
+[[% for waiver in pip_audit_waivers %]]  "[[[ waiver.id ]]]",
+[[% endfor %]]]
+
+[[% endif %]]# ---------------- Import-linter architecture contracts ----------------
 [tool.importlinter]
 root_packages = [
   "examples",
