@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.20...v1.9.0) (2026-08-17)
+
+
+### Features
+
+* add runtime audit waiver surface ([#211](https://github.com/betabitplus/ternforge-template-components/issues/211)) ([22d8ec6](https://github.com/betabitplus/ternforge-template-components/commit/22d8ec6361e971bee20c257b813580f354cd45a4))
+
 ## [1.8.20](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.19...v1.8.20) (2026-08-16)
 
 
