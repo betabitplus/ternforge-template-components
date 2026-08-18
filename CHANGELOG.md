@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.9.0...v1.10.0) (2026-08-18)
+
+
+### Features
+
+* allow pinned devcontainer system packages ([#214](https://github.com/betabitplus/ternforge-template-components/issues/214)) ([e4974f7](https://github.com/betabitplus/ternforge-template-components/commit/e4974f70b3820e3e6529aa2e1878b8b4ba39f8ea))
+
 ## [1.9.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.8.20...v1.9.0) (2026-08-17)
 
 
