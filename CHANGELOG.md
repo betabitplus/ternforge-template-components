@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.10.2...v1.10.3) (2026-08-21)
+
+
+### Bug Fixes
+
+* remove obsolete agent instructions ([#220](https://github.com/betabitplus/ternforge-template-components/issues/220)) ([1482fc4](https://github.com/betabitplus/ternforge-template-components/commit/1482fc4aa3a404b373686bb2e8daf60e9086ad72))
+
 ## [1.10.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.10.1...v1.10.2) (2026-08-19)
 
 
