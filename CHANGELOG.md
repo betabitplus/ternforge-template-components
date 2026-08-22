@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.11.0...v1.11.1) (2026-08-22)
+
+
+### Bug Fixes
+
+* use Sphinx-native documentation links ([#227](https://github.com/betabitplus/ternforge-template-components/issues/227)) ([1493c11](https://github.com/betabitplus/ternforge-template-components/commit/1493c114d29ef0d68273067effb4366e23a363ac))
+
 ## [1.11.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.10.4...v1.11.0) (2026-08-22)
 
 
