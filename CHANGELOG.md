@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.11.1...v1.11.2) (2026-08-22)
+
+
+### Bug Fixes
+
+* pin migration-safe docs CI ([#229](https://github.com/betabitplus/ternforge-template-components/issues/229)) ([ff1710a](https://github.com/betabitplus/ternforge-template-components/commit/ff1710a97c923d72eb1cf290d949a9bfdc694004))
+
 ## [1.11.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.11.0...v1.11.1) (2026-08-22)
 
 
