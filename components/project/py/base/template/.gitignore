@@ -36,6 +36,10 @@ logs/
 data/
 tests/.outputs/
 workbench/.outputs/
+docs/_build/
+docs/auto_examples/
+docs/generated/
+docs/sg_execution_times.rst
 records/
 [[% for pattern in gitignore_extra_patterns %]]
 [[[ pattern ]]]

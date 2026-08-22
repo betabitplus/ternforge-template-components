@@ -21,7 +21,7 @@ probes, and reusable project tooling.
 - Manual probes under `workbench/[[[ package_name ]]]/`.
 - Package docs under `docs/[[[ package_name ]]]/`.
 - Shared tooling metadata in `[tool.ternforge]`.
-- Import-linter and smoke-check wiring.
+- Import-linter, offline example-import checks, and generated Sphinx documentation.
 
 The package starts with the common public boundary used across the py
 libraries: version metadata, a package base error, config install/read helpers,
@@ -66,5 +66,5 @@ Review these project-specific values first:
 
 ## Documentation
 
-Start with [docs/[[[ package_name ]]]/README.md](docs/[[[ package_name ]]]/README.md)
-for architecture, usage, dependency, and verification notes.
+Start with [docs/README.md](docs/README.md) for the generated site, live examples,
+API reference, architecture, dependencies, and verification notes.
