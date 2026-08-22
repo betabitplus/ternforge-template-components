@@ -1,7 +1,7 @@
 ---
 name: [[[ project_name ]]]-docs
 doc_type: index
-description: Package documentation index for [[[ project_title_lower ]]]. Use when you need to navigate architecture, usage, dependency, or verification docs.
+description: Package documentation index for [[[ project_title_lower ]]]. Use when you need to navigate architecture, examples, dependency, or verification docs.
 ---
 
 # [[[ project_name ]]] Docs
@@ -22,10 +22,9 @@ real library behavior as soon as the first product slice lands.
 - [dependencies.md](dependencies.md)
   Explains direct runtime dependency roles.
   Keep it focused on shipped dependencies, not the full lockfile.
-- [usage.md](usage.md)
-  Shows supported public imports, caller-facing examples, and runnable example
-  entrypoints.
-  Extend it when product-specific public behavior exists.
+- [Live examples](../auto_examples/index)
+  Shows complete runnable programs for representative public API workflows.
+  Use it to run, inspect, or download the supported caller-facing examples.
 - [verification/README.md](verification/README.md)
   Indexes the verification-oriented docs.
   Use it to choose between examples, tests, and workbench behavior.

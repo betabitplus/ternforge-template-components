@@ -40,11 +40,13 @@ product-package imports. Product-wide fixtures live in
 
 ## Test Layers
 
+- `test_examples.py` imports caller-facing examples with network access blocked.
 - `unit/` checks focused public and private seams.
 - `integration/` checks package-level collaboration.
 - `property_based/public_contract/` checks public invariants.
 - `property_based/internal/` checks private implementation invariants.
 - `e2e/` contains direct-runnable public behavior scenarios.
 
+The examples import check is structural only; it never replaces live example execution.
 If the project adds external HTTP e2e tests, add replay support deliberately and
 document the recording/update process next to that slice.

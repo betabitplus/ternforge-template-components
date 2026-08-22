@@ -52,4 +52,12 @@ dev = [
   "types-pillow>=10.2.0.20240822",
   "validate-pyproject>=0.25",
 ]
+docs = [
+  "matplotlib>=3.11.1",
+  "myst-parser>=4.0.1",
+  "pydata-sphinx-theme>=0.20.0",
+  "sphinx>=8.2.3",
+  "sphinx-gallery>=0.21.0",
+  "sphinxcontrib-mermaid>=2.1.0",
+]
 

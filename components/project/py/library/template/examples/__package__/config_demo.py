@@ -1,10 +1,10 @@
-# %%
-"""Runnable public config example for [[[ project_title_lower ]]].
+"""Public configuration
+====================
 
-Run from the repository root:
-    uv run python examples/[[[ package_name ]]]/config_demo.py
+Install and read the public configuration snapshot for [[[ project_title_lower ]]].
 """
 
+# %%
 from __future__ import annotations
 
 from [[[ package_name ]]] import (
@@ -22,5 +22,6 @@ def main() -> None:
     print(f"same_object: {active_config is config}")
 
 
+# %%
 if __name__ == "__main__":
     main()
