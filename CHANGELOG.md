@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.10.4...v1.11.0) (2026-08-22)
+
+
+### Features
+
+* standardize live executable examples ([#224](https://github.com/betabitplus/ternforge-template-components/issues/224)) ([d4821dd](https://github.com/betabitplus/ternforge-template-components/commit/d4821dd616ed3a9c6c14b5d2f402da113fa7ed8f))
+
 ## [1.10.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.10.3...v1.10.4) (2026-08-22)
 
 
