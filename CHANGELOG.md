@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.0...v1.12.1) (2026-08-22)
+
+
+### Bug Fixes
+
+* allow Sphinx-Gallery config comments ([#236](https://github.com/betabitplus/ternforge-template-components/issues/236)) ([d433e92](https://github.com/betabitplus/ternforge-template-components/commit/d433e92a7beda896860d1f93a9e5511650147342))
+
 ## [1.12.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.11.3...v1.12.0) (2026-08-22)
 
 
