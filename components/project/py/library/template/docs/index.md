@@ -2,11 +2,11 @@
 
 [[[ project_description ]]]
 
-- [Package documentation]([[[ package_name ]]]/README)
-- [Live executable examples](auto_examples/index)
-- [API reference](api)
-- [Architecture]([[[ package_name ]]]/architecture/README)
-- [Verification]([[[ package_name ]]]/verification/README)
+- {doc}`Package documentation <[[[ package_name ]]]/README>`
+- {doc}`Live executable examples <auto_examples/index>`
+- {doc}`API reference <api>`
+- {doc}`Architecture <[[[ package_name ]]]/architecture/README>`
+- {doc}`Verification <[[[ package_name ]]]/verification/README>`
 
 ```{toctree}
 :hidden:

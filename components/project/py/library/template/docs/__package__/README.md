@@ -22,7 +22,7 @@ real library behavior as soon as the first product slice lands.
 - [dependencies.md](dependencies.md)
   Explains direct runtime dependency roles.
   Keep it focused on shipped dependencies, not the full lockfile.
-- [Live examples](../auto_examples/index)
+- {doc}`Live examples <../auto_examples/index>`
   Shows complete runnable programs for representative public API workflows.
   Use it to run, inspect, or download the supported caller-facing examples.
 - [verification/README.md](verification/README.md)
