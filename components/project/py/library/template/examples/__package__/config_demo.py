@@ -3,6 +3,7 @@
 
 Install and read the public configuration snapshot for [[[ project_title_lower ]]].
 """
+# sphinx_gallery_tags = ["configuration", "public-api"]
 
 # %%
 from __future__ import annotations
