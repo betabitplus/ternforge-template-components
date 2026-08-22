@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.12.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.11.3...v1.12.0) (2026-08-22)
+
+
+### Features
+
+* add live docs delivery component ([#233](https://github.com/betabitplus/ternforge-template-components/issues/233)) ([974c592](https://github.com/betabitplus/ternforge-template-components/commit/974c5921e6582a40dcc6cd9a3814e8b125305bce))
+
+
+### Bug Fixes
+
+* **deps:** update betabitplus/ternforge-infra-ci action to v5.4.0 ([#234](https://github.com/betabitplus/ternforge-template-components/issues/234)) ([0eca805](https://github.com/betabitplus/ternforge-template-components/commit/0eca80500fe6365db16d1a5b9d1f1a8f5a84105b))
+
 ## [1.11.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.11.2...v1.11.3) (2026-08-22)
 
 
