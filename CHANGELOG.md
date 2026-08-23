@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.5...v1.12.6) (2026-08-23)
+
+
+### Bug Fixes
+
+* add gallery thumbnail fallback ([#246](https://github.com/betabitplus/ternforge-template-components/issues/246)) ([baebe1f](https://github.com/betabitplus/ternforge-template-components/commit/baebe1f513d22441c22fef4b80394c74b16c3a70))
+
 ## [1.12.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.4...v1.12.5) (2026-08-23)
 
 
