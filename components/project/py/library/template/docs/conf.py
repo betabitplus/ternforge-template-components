@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+from pathlib import Path
 
 project = "[[[ project_name ]]]"
 
@@ -36,6 +37,9 @@ sphinx_gallery_conf = {
     "doc_module": ("[[[ package_name ]]]",),
     "reference_url": {"[[[ package_name ]]]": None},
     "copyfile_regex": r".*\.(?:png|jpe?g|gif|svg|pdf|mp4|webm|wav|mp3)$",
+    "default_thumb_file": str(
+        Path(__file__).parent / "_static" / "gallery-default.svg"
+    ),
     "junit": "../test-results/sphinx-gallery/junit.xml",
     "remove_config_comments": True,
     "recommender": {
