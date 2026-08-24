@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.8...v1.12.9) (2026-08-24)
+
+
+### Bug Fixes
+
+* simplify Python gallery defaults ([#254](https://github.com/betabitplus/ternforge-template-components/issues/254)) ([1f8df90](https://github.com/betabitplus/ternforge-template-components/commit/1f8df90d033b964abf1c3333bf8005b099ef630f))
+
 ## [1.12.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.7...v1.12.8) (2026-08-24)
 
 
