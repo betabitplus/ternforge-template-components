@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.6...v1.12.7) (2026-08-24)
+
+
+### Bug Fixes
+
+* wire Playwright into live docs ([#248](https://github.com/betabitplus/ternforge-template-components/issues/248)) ([0b6a6ec](https://github.com/betabitplus/ternforge-template-components/commit/0b6a6eca885fc0923ebec01b72a0d305a056eb88))
+
 ## [1.12.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.5...v1.12.6) (2026-08-23)
 
 
