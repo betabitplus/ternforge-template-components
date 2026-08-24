@@ -24,12 +24,13 @@ jobs:
   docs:
     name: docs
     if: ${{ vars.TERNFORGE_DOCS_MODE != '' }}
-    uses: betabitplus/ternforge-infra-ci/.github/workflows/python-library-docs.yml@0b6e74b30ce93e437f8cac74b9c9dd09dc9311e1 # v5.4.5
+    uses: betabitplus/ternforge-infra-ci/.github/workflows/python-library-docs.yml@a1834ce915a6ff115c4613bfca2093ff24cf8752 # v5.4.6
     with:
       python-version: "3.13"
       package-name: "[[[ package_name ]]]"
       live-mode: ${{ vars.TERNFORGE_DOCS_MODE }}
       docs-runner: ${{ vars.TERNFORGE_DOCS_RUNNER || 'ubuntu-24.04' }}
+      playwright-browsers: "[[[ ci_playwright_browsers | join(' ') ]]]"
       local-environment: ${{ vars.TERNFORGE_DOCS_LOCAL_ENVIRONMENT == 'true' }}
       target-ref: ${{ github.event.release.tag_name || inputs.ref || '' }}
       force: ${{ github.event_name == 'workflow_dispatch' && inputs.force || false }}
