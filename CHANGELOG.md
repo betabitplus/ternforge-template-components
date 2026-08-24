@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.7...v1.12.8) (2026-08-24)
+
+
+### Bug Fixes
+
+* pin docs change detection update ([#251](https://github.com/betabitplus/ternforge-template-components/issues/251)) ([8fd2fc9](https://github.com/betabitplus/ternforge-template-components/commit/8fd2fc9a7206ef3844bf2e9c37e9dc80b0b8724d))
+
 ## [1.12.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.6...v1.12.7) (2026-08-24)
 
 
