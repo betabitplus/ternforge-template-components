@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.9...v1.13.0) (2026-08-25)
+
+
+### Features
+
+* add living specifications baseline ([#257](https://github.com/betabitplus/ternforge-template-components/issues/257)) ([198f5a7](https://github.com/betabitplus/ternforge-template-components/commit/198f5a7dd403bd09b7c7b6832399ba89520014e4))
+
 ## [1.12.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.8...v1.12.9) (2026-08-24)
 
 
