@@ -14,6 +14,7 @@ complete Python-library product:
 - `components/project/py/base` and `components/project/py/library`
 - `components/quality/py`
 - `components/delivery/ci/py-library`
+- `components/delivery/docs/py-library`
 - `components/delivery/release/library`
 - `components/delivery/updates`
 
