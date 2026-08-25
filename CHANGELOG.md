@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.2...v1.13.3) (2026-08-25)
+
+
+### Bug Fixes
+
+* document docs delivery component ([#266](https://github.com/betabitplus/ternforge-template-components/issues/266)) ([735c7d9](https://github.com/betabitplus/ternforge-template-components/commit/735c7d9b7de21e75fafbb6f79f8bf013ec6cdd3e))
+
 ## [1.13.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.1...v1.13.2) (2026-08-25)
 
 
