@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.5...v1.13.6) (2026-08-25)
+
+
+### Bug Fixes
+
+* **template:** wrap test package docstring ([#273](https://github.com/betabitplus/ternforge-template-components/issues/273)) ([3011967](https://github.com/betabitplus/ternforge-template-components/commit/30119676497d180a75d3cd79719f88a7346e62b5))
+
 ## [1.13.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.4...v1.13.5) (2026-08-25)
 
 
