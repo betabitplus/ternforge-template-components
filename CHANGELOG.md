@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.6...v1.13.7) (2026-08-25)
+
+
+### Bug Fixes
+
+* **gherkin:** avoid whitespace hook conflicts ([#276](https://github.com/betabitplus/ternforge-template-components/issues/276)) ([586350a](https://github.com/betabitplus/ternforge-template-components/commit/586350a7fdb705fb268a78ac999507272352d4d0))
+
 ## [1.13.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.5...v1.13.6) (2026-08-25)
 
 
