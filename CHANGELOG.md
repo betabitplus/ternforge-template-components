@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.7...v1.13.8) (2026-08-25)
+
+
+### Bug Fixes
+
+* release isolated specifications replay ([#279](https://github.com/betabitplus/ternforge-template-components/issues/279)) ([d3a57a9](https://github.com/betabitplus/ternforge-template-components/commit/d3a57a9d0e0a38b38b1fdc1fd4199dc036aa3d07))
+
 ## [1.13.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.6...v1.13.7) (2026-08-25)
 
 
