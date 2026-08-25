@@ -1,15 +1,5 @@
 [dependency-groups]
-specifications = [
-  "allure-pytest-bdd>=2.16,<3",
-[[% if package_name not in ["py_lib_policy", "py_lib_runtime", "py_lib_testkit"] %]]
-  "py-lib-testkit",
-[[% endif %]]
-  "pytest>=9.1.0",
-  "pytest-bdd>=8.1,<9",
-  "pytest-recording>=0.13.4",
-]
 dev = [
-  { include-group = "specifications" },
   # Security auditing
   "bandit>=1.9.4",
   "check-manifest>=0.51",
@@ -26,8 +16,8 @@ dev = [
   "interrogate>=1.7",
   # Interactive development
   "ipykernel>=7.3.0",
-  "ipython>=9.14.1",
   "ipytest>=0.14.2,<0.15",
+  "ipython>=9.14.1",
   "mdformat>=0.7.22",
   "mdformat-beautysh>=1.0.0",
   "mdformat-frontmatter>=2.1.2",
@@ -57,6 +47,7 @@ dev = [
   "ty>=0.0.50",
   "types-pillow>=10.2.0.20240822",
   "validate-pyproject>=0.25",
+  { include-group = "specifications" },
 ]
 docs = [
   "matplotlib>=3.11.1",
@@ -65,5 +56,14 @@ docs = [
   "sphinx>=8.2.3",
   "sphinx-gallery>=0.21.0",
   "sphinxcontrib-mermaid>=2.1.0",
+]
+specifications = [
+  "allure-pytest-bdd>=2.16,<3",
+[[% if package_name not in ["py_lib_policy", "py_lib_runtime", "py_lib_testkit"] %]]
+  "py-lib-testkit",
+[[% endif %]]
+  "pytest>=9.1.0",
+  "pytest-bdd>=8.1,<9",
+  "pytest-recording>=0.13.4",
 ]
 
