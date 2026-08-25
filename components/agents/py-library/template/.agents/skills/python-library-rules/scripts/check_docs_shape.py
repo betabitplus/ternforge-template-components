@@ -75,7 +75,8 @@ def _resolve_selected_paths(
 def _parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Run python-library-rules template checks for docs, src, and workbench trees."
+            "Run python-library-rules template checks for docs, src, "
+            "and workbench trees."
         )
     )
     parser.add_argument(
