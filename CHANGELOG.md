@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.8...v1.13.9) (2026-08-25)
+
+
+### Bug Fixes
+
+* remove verification doc machinery ([#282](https://github.com/betabitplus/ternforge-template-components/issues/282)) ([ccfe673](https://github.com/betabitplus/ternforge-template-components/commit/ccfe6730a5c2e225901fd20b259db6d651e1608d))
+
 ## [1.13.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.7...v1.13.8) (2026-08-25)
 
 
