@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.4...v1.13.5) (2026-08-25)
+
+
+### Bug Fixes
+
+* **verification:** make e2e an optional test depth ([#271](https://github.com/betabitplus/ternforge-template-components/issues/271)) ([8c59fec](https://github.com/betabitplus/ternforge-template-components/commit/8c59fec47c5ad40b8483675aac83017ecaf124e7))
+
 ## [1.13.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.3...v1.13.4) (2026-08-25)
 
 
