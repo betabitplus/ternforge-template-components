@@ -163,6 +163,7 @@ ignore = [
   ".devcontainer/**",
   ".git/**",
   ".github/**",
+  ".gherkin-lintrc",
   ".gitleaks.toml",
   ".markdown-link-check.json",
   ".markdownlint.yaml",
@@ -176,6 +177,7 @@ ignore = [
   "__pycache__/**",
   "docs/**",
   "examples/**",
+  "features/**",
   "plan/**",
   "release-please-config.json",
   "scripts/**",
@@ -295,8 +297,10 @@ ini_options.norecursedirs = [
   "scripts",
 ]
 # ---------------- Pytest configuration ----------------
-ini_options.addopts = "--cov --cov-report=term-missing"
+ini_options.addopts = "--cov --cov-report=term-missing --strict-markers"
+ini_options.bdd_features_base_dir = "features"
 ini_options.markers = [
+  "specification: executable living specifications",
   "e2e_behavior: end-to-end behavior tests",
   "e2e_contract: end-to-end public contract tests",
   "hermetic: marks tests that run fully offline",
