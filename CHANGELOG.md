@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.1...v1.13.2) (2026-08-25)
+
+
+### Bug Fixes
+
+* canonicalize specifications pyproject layout ([#262](https://github.com/betabitplus/ternforge-template-components/issues/262)) ([fc728f2](https://github.com/betabitplus/ternforge-template-components/commit/fc728f2fa7960decd497a427890d7fb5bd3addd7))
+
 ## [1.13.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.0...v1.13.1) (2026-08-25)
 
 
