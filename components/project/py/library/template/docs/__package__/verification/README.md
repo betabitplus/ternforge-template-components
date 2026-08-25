@@ -1,22 +1,20 @@
 ---
 name: verification
 doc_type: index
-description: Index of the verification-oriented docs for [[[ project_title_lower ]]]. Use when you need to find e2e proof docs, runnable example smoke checks, or live workbench validation docs.
+description: Index of verification-oriented docs for [[[ project_title_lower ]]]. Use when you need the technical verification story or manual workbench guidance.
 ---
 
 # Verification
 
 ## Overview
 
-These docs describe the main verification layers around [[[ project_title_lower ]]]:
-unit tests, integration tests, property-based tests, runnable example smoke
-checks, hermetic e2e proof, and manual workbench validation.
+These docs explain the technical verification around [[[ project_title_lower ]]]: unit tests, integration tests, property-based tests, import/package checks, example smoke checks, and manual workbench validation.
+
+Living Specifications are separate from this handwritten verification documentation. When `features/` exists, executable behavioral contracts are published from the specification source itself under `/specifications/` rather than duplicated here.
 
 ## Files
 
-- [e2e/README.md](e2e/README.md)
-  Indexes concept-aligned e2e proof docs.
 - [public-boundary-and-errors.md](public-boundary-and-errors.md)
-  Explains baseline public-boundary and import-direction proof.
+  Explains baseline public-boundary and import-direction verification.
 - [workbench.md](workbench.md)
   Explains the manual workbench area.

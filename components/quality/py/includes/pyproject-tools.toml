@@ -117,7 +117,7 @@ lint.per-file-ignores."tests/*" = [
   "PLR2004", # Allow magic values in assertions
   "PT012",   # Allow multi-statement pytest.raises blocks
   "S101",    # Allow assert statements
-  "T20",     # Allow print statements in direct-runnable e2e modules
+  "T20",     # Allow print statements in test diagnostics
   "TRY003",  # Allow long exception messages
 ]
 lint.per-file-ignores."workbench/*" = [
@@ -299,8 +299,6 @@ ini_options.norecursedirs = [
 # ---------------- Pytest configuration ----------------
 ini_options.addopts = "--cov --cov-report=term-missing --strict-markers"
 ini_options.markers = [
-  "e2e_behavior: end-to-end behavior tests",
-  "e2e_contract: end-to-end public contract tests",
   "hermetic: marks tests that run fully offline",
   "slow: marks tests that are slow and should be skipped in fast runs",
   "specification: executable living specifications",
@@ -394,7 +392,6 @@ name = "[[[ project_title ]]] public-contract verification modules must not impo
 id = "[[[ project_slug ]]]-public-contract-boundary"
 type = "forbidden"
 source_modules = [
-  "tests.[[[ package_name ]]].e2e",
   "tests.[[[ package_name ]]].property_based.public_contract",
   "tests.[[[ package_name ]]].support",
 ]
