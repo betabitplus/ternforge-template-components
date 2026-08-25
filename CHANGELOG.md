@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.10](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.9...v1.13.10) (2026-08-25)
+
+
+### Bug Fixes
+
+* wrap docs checker description ([#284](https://github.com/betabitplus/ternforge-template-components/issues/284)) ([ea075b2](https://github.com/betabitplus/ternforge-template-components/commit/ea075b2478fca2f34f4cddab82f96f3fc2929073))
+
 ## [1.13.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.8...v1.13.9) (2026-08-25)
 
 
