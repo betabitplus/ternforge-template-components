@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.0...v1.13.1) (2026-08-25)
+
+
+### Bug Fixes
+
+* preserve testkit dependency boundary ([#260](https://github.com/betabitplus/ternforge-template-components/issues/260)) ([33346d2](https://github.com/betabitplus/ternforge-template-components/commit/33346d2bfc2187fff812b68f04a4c6fef79ec960))
+
 ## [1.13.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.12.9...v1.13.0) (2026-08-25)
 
 
