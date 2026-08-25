@@ -47,7 +47,6 @@ flowchart TD
 
 - Architecture concepts should document stable product slices, not the current
   private file tree.
-- Verification docs should prove the same slices named by architecture docs.
 - If docs look tidy but do not explain what the product slice means, rewrite
   the content instead of only improving format.
 
@@ -57,4 +56,3 @@ flowchart TD
   API by accident.
 - Public tests should import from the top-level package unless they explicitly
   target a private seam.
-- Concept names and verification names should drift together or not at all.
