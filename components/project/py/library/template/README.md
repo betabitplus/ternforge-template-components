@@ -68,4 +68,4 @@ Review these project-specific values first:
 ## Documentation
 
 Start with [docs/README.md](docs/README.md) for the generated site, live examples,
-API reference, architecture, dependencies, and verification notes.
+API reference, architecture, and dependencies.

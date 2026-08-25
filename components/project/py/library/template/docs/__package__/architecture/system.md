@@ -52,5 +52,4 @@ Architecture docs should follow product meaning, not folder structure. When the
 first real behavior lands, name the durable concept under
 `architecture/concepts/` and document important lifecycles under
 `architecture/flows/`. If that behavior is a durable executable contract, express
-it once as a Living Specification under `features/` instead of mirroring it into
-handwritten verification and E2E documentation.
+it as a Living Specification under `features/`.

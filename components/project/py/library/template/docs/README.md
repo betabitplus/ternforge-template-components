@@ -9,13 +9,13 @@ description: Repository documentation index. Use when you need the right docs en
 ## Overview
 
 These docs describe the [[[ project_title_lower ]]] architecture, dependency roles,
-verification approach, API reference, and generated live-example gallery.
+API reference, and generated live-example gallery.
 
 ## Files
 
 - [Package Docs]([[[ package_name ]]]/README.md)
   Indexes the package documentation.
-  Use it to enter the package architecture, examples, dependency, and verification docs.
+  Use it to enter the package architecture, examples, and dependency docs.
 - [Sphinx Site Source](index.md)
   Defines the generated documentation home page and navigation.
   Build the site to inspect the live-example gallery and API reference.
