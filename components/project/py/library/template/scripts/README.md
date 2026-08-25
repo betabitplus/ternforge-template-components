@@ -42,7 +42,7 @@ Use shared smoke commands directly:
 
 ```bash
 uv build
-uv run pytest tests/[[[ package_name ]]]/e2e/public_boundary -q --no-cov
+uv run pytest tests/[[[ package_name ]]]/integration/test_config_lifecycle.py -q --no-cov
 ```
 
 Check and apply released Ternforge template updates with Copier:

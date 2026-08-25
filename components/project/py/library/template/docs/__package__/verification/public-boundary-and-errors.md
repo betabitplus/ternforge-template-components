@@ -1,73 +1,47 @@
 ---
 name: public-boundary-and-errors-verification
 doc_type: verification
-description: High-level walkthrough of the public boundary guarantees proved by tests and checks. Use when you need the verification story for terminal package-boundary behavior.
+description: High-level walkthrough of the public boundary guarantees proved by tests and checks. Use when you need the technical verification story for package-boundary behavior.
 ---
 
 # Public Boundary And Errors
 
 ## Overview
 
-This document describes how the baseline proves that the public package import
-boundary, config lifecycle, public errors, and private implementation
-boundaries remain usable.
-
-Question this diagram answers: Which package-boundary guarantees are checked?
-
-```mermaid
-flowchart TD
-    A["Public Boundary"] --> B["Unit contracts"]
-    A --> C["E2E config pipeline"]
-    A --> D["Import and smoke checks"]
-    B --> E["Stable caller surface"]
-    C --> E
-    D --> E
-```
+The baseline verifies the supported top-level package boundary, config lifecycle, public errors, and import direction without turning those technical checks into a separate behavioral documentation system.
 
 ## Proof Areas
 
 ## 1. Proof: Public Config Boundary Stays Usable
 
-This proof area shows that the baseline public names resolve through the
-supported top-level package entrypoint and that config install/read state works
-without importing private modules.
+This proof area shows that public names resolve through the supported package entrypoint and config installation/readback works without private imports.
 
 ### Seen In Tests
 
-[test_public_package.py](../../../tests/[[[ package_name ]]]/unit/test_public_package.py):
-proves top-level exports resolve, public config names are available, the
-package-specific public exception exists, and version metadata is available.
+[test_public_package.py](../../../tests/[[[ package_name ]]]/unit/test_public_package.py) proves the expected top-level exports, public error type, and version metadata.
 
-[test_public_config_pipeline.py](../../../tests/[[[ package_name ]]]/e2e/public_boundary/test_public_config_pipeline.py):
-proves the config lifecycle works through its supported boundary.
+[test_config_lifecycle.py](../../../tests/[[[ package_name ]]]/integration/test_config_lifecycle.py) proves invalid installs are rejected, installed snapshots become active, and explicit snapshots remain readable through the public API.
 
 Would fail if:
 
-- top-level exports drifted away from the documented public surface
-- the public exception stopped being available
+- top-level exports drifted away from the supported caller surface
 - config install/read helpers stopped working through public imports
-- distribution metadata could not be resolved
+- the public exception or distribution metadata disappeared
 
 ## 2. Proof: Import Direction Keeps Internals Private
 
-This proof area shows that public, private, support, example, test, and
-workbench code keep the intended dependency direction.
+This proof area shows that public, private, support, example, test, and workbench code keep the intended dependency direction.
 
 ### Seen In Checks
 
-`uv run lint-imports --config pyproject.toml`
-proves package-boundary contracts declared in project configuration.
+`uv run lint-imports --config pyproject.toml` proves the declared package-boundary contracts.
 
-`uv run pytest tests/[[[ package_name ]]]/e2e/public_boundary -q --no-cov`
-proves the top-level public export list is present, unique, and internally
-consistent.
+`uv run pytest tests/[[[ package_name ]]]/unit tests/[[[ package_name ]]]/integration -q --no-cov` exercises the baseline public and collaborative package behavior.
 
-`uv run pytest tests/[[[ package_name ]]]/e2e/examples`
-proves committed runnable examples still execute through public imports.
+`uv run pytest tests/test_examples.py -q --no-cov` checks committed caller-facing examples structurally with external network access blocked.
 
 Would fail if:
 
-- examples imported private modules or stopped running from the repository root
-- tests started relying on private modules for public-contract proof
-- public facades imported private implementation through unapproved paths
-- top-level exports no longer matched the intended public surface
+- examples imported private modules
+- public facades crossed unapproved import boundaries
+- technical tests started depending on the wrong package layer

@@ -37,6 +37,14 @@ def test_install_config_rejects_wrong_type() -> None:
         install_config(object())
 
 
+def test_install_config_sets_active_snapshot() -> None:
+    """Installing a config makes it the active public runtime snapshot."""
+    config = [[[ config_class_name ]]]()
+
+    assert install_config(config) is config
+    assert get_config() is config
+
+
 def test_get_config_accepts_explicit_snapshot() -> None:
     """Explicit config snapshots can bypass the installed global snapshot."""
     config = [[[ config_class_name ]]]()

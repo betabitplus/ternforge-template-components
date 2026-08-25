@@ -14,7 +14,8 @@ probes, and reusable project tooling.
 - `_api` declarations over private `_internal` implementation.
 - A reusable config lifecycle with public re-exports and private snapshot state.
 - Structured logging plus safe error/value previews from `py-lib-runtime`.
-- Unit, integration, property-based, and e2e test folders.
+- Unit, integration, and property-based test folders; optional E2E depth when needed.
+- Optional Living Specifications under `features/` with pytest-bdd bindings.
 - Reusable development and test tooling through `py-lib-testkit`.
 - Package-specific tests under `tests/[[[ package_name ]]]/`.
 - Runnable public API examples under `examples/[[[ package_name ]]]/`.
