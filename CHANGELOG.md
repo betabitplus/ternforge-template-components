@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.11](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.10...v1.13.11) (2026-08-26)
+
+
+### Bug Fixes
+
+* update lean tooling pins ([#286](https://github.com/betabitplus/ternforge-template-components/issues/286)) ([65c8516](https://github.com/betabitplus/ternforge-template-components/commit/65c85166d8290263d9f64c5212139f7096c4d87d))
+
 ## [1.13.10](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.9...v1.13.10) (2026-08-25)
 
 
