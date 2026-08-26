@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.13](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.12...v1.13.13) (2026-08-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency py-lib-policy to v1.2.3 ([#292](https://github.com/betabitplus/ternforge-template-components/issues/292)) ([f202b80](https://github.com/betabitplus/ternforge-template-components/commit/f202b807d1fbc3728a6527886fc142b2d887c1a6))
+
 ## [1.13.12](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.11...v1.13.12) (2026-08-26)
 
 
