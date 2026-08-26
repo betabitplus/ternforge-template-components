@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.14](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.13...v1.13.14) (2026-08-26)
+
+
+### Bug Fixes
+
+* drop tests readme baseline ([#294](https://github.com/betabitplus/ternforge-template-components/issues/294)) ([48870d1](https://github.com/betabitplus/ternforge-template-components/commit/48870d17fbca0b87b06b5324bc768c1eb9cae808))
+
 ## [1.13.13](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.12...v1.13.13) (2026-08-26)
 
 
