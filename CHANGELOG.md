@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.15.0...v1.15.1) (2026-08-27)
+
+
+### Bug Fixes
+
+* load Sphinx-Needs before CodeLinks ([#313](https://github.com/betabitplus/ternforge-template-components/issues/313)) ([480864c](https://github.com/betabitplus/ternforge-template-components/commit/480864c8cbddb607d7b9398a1a9bb0a1f598ab7c))
+
 ## [1.15.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.14.2...v1.15.0) (2026-08-27)
 
 
