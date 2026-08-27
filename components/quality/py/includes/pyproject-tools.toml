@@ -306,6 +306,7 @@ ini_options.markers = [
 ini_options.bdd_features_base_dir = "features"
 
 [tool.coverage]
+run.core = "ctrace"
 run.source = [ "src" ]
 # ---------------- pytest coverage ----------------
 report.fail_under = 1
