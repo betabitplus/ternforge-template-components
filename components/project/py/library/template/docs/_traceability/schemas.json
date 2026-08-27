@@ -79,10 +79,16 @@
     },
     {
       "id": "impl-contract",
-      "message": "Implementation evidence must implement at least one requirement.",
+      "message": "Implementation evidence must come from source code and implement at least one requirement.",
       "select": {"$ref": "#/$defs/type-impl"},
       "validate": {
-        "local": {"properties": {"id": {"pattern": "^IMPL_[A-Z0-9_]+$"}}},
+        "local": {
+          "properties": {
+            "id": {"pattern": "^IMPL_[A-Z0-9_]+$"},
+            "source_url": {"type": "string", "minLength": 1}
+          },
+          "required": ["source_url"]
+        },
         "network": {
           "implements": {
             "contains": {"local": {"$ref": "#/$defs/requirement-like"}},
