@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.15.1...v1.15.2) (2026-08-27)
+
+
+### Bug Fixes
+
+* keep docs dependencies canonical ([#315](https://github.com/betabitplus/ternforge-template-components/issues/315)) ([700c570](https://github.com/betabitplus/ternforge-template-components/commit/700c570c11d03f7c1b0259e002467148a245e8c5))
+
 ## [1.15.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.15.0...v1.15.1) (2026-08-27)
 
 
