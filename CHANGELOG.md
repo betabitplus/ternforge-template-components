@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.16.1...v1.16.2) (2026-08-27)
+
+
+### Bug Fixes
+
+* adopt infra-ci v5.6.1 ([#321](https://github.com/betabitplus/ternforge-template-components/issues/321)) ([1ee4b95](https://github.com/betabitplus/ternforge-template-components/commit/1ee4b9534460f0c803b437fefefd380d6e86bd70))
+
 ## [1.16.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.16.0...v1.16.1) (2026-08-27)
 
 
