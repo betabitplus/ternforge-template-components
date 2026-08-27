@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.14.0...v1.14.1) (2026-08-27)
+
+
+### Bug Fixes
+
+* include requirements config in source distributions ([#306](https://github.com/betabitplus/ternforge-template-components/issues/306)) ([cdae26b](https://github.com/betabitplus/ternforge-template-components/commit/cdae26b744a8dee7e65eca1c4e64f17c008cd5ca))
+
 ## [1.14.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.17...v1.14.0) (2026-08-27)
 
 
