@@ -24,7 +24,7 @@ jobs:
   docs:
     name: docs
     if: ${{ vars.TERNFORGE_DOCS_MODE != '' }}
-    uses: betabitplus/ternforge-infra-ci/.github/workflows/python-library-docs.yml@083a8cadb58c33ef31db2e875a010a48c2da12bd # v5.5.2
+    uses: betabitplus/ternforge-infra-ci/.github/workflows/python-library-docs.yml@2cbc558251d6a769c3e7ab464a48bbda8f5340e4 # v5.6.0
     with:
       python-version: "3.13"
       package-name: "[[[ package_name ]]]"
