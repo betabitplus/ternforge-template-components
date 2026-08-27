@@ -8,8 +8,8 @@ project = "[[[ project_name ]]]"
 
 extensions = [
     "myst_parser",
-    "sphinx_codelinks",
     "sphinx_needs",
+    "sphinx_codelinks",
     "sphinxcontrib.test_reports",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
