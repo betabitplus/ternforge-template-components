@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.14.1...v1.14.2) (2026-08-27)
+
+
+### Bug Fixes
+
+* canonicalize coverage configuration ([#308](https://github.com/betabitplus/ternforge-template-components/issues/308)) ([2ed35ec](https://github.com/betabitplus/ternforge-template-components/commit/2ed35ecc5f514cce37d353e5cae3506575751e35))
+
 ## [1.14.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.14.0...v1.14.1) (2026-08-27)
 
 
