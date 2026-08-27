@@ -301,7 +301,6 @@ ini_options.addopts = "--cov --cov-report=term-missing --strict-markers"
 ini_options.markers = [
   "hermetic: marks tests that run fully offline",
   "slow: marks tests that are slow and should be skipped in fast runs",
-  "specification: executable living specifications",
   "vcr: marks tests that use VCR.py for HTTP recording/replay",
 ]
 ini_options.bdd_features_base_dir = "features"
@@ -367,16 +366,14 @@ forbidden_modules = [ "[[[ package_name ]]]._api.config" ]
 as_packages = false
 
 [[tool.importlinter.contracts]]
-name = "Private implementation is only imported through product code and explicit private-boundary test layers"
+name = "Private implementation is only imported through product code and tests"
 id = "private-implementation-approved-boundaries"
 type = "protected"
 protected_modules = [ "[[[ package_name ]]]._internal" ]
 allowed_importers = [
   "[[[ package_name ]]]._api",
   "[[[ package_name ]]]._internal",
-  "tests.[[[ package_name ]]].integration",
-  "tests.[[[ package_name ]]].property_based.internal",
-  "tests.[[[ package_name ]]].unit",
+  "tests.[[[ package_name ]]]",
 ]
 
 [[tool.importlinter.contracts]]
@@ -385,17 +382,6 @@ id = "facade-private-imports-through-root"
 type = "forbidden"
 source_modules = [ "[[[ package_name ]]]._api" ]
 forbidden_modules = [ "[[[ package_name ]]]._internal.**" ]
-allow_indirect_imports = true
-
-[[tool.importlinter.contracts]]
-name = "[[[ project_title ]]] public-contract verification modules must not import private implementation"
-id = "[[[ project_slug ]]]-public-contract-boundary"
-type = "forbidden"
-source_modules = [
-  "tests.[[[ package_name ]]].property_based.public_contract",
-  "tests.[[[ package_name ]]].support",
-]
-forbidden_modules = [ "[[[ package_name ]]]._internal", "src" ]
 allow_indirect_imports = true
 
 [[tool.importlinter.contracts]]

@@ -1,4 +1,4 @@
-"""Config lifecycle integration tests.
+"""Config lifecycle tests.
 
 Why:
     Verifies that public config construction, installation, and explicit
