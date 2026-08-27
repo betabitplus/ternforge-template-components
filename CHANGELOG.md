@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.15](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.14...v1.13.15) (2026-08-27)
+
+
+### Bug Fixes
+
+* remove legacy docs and test architecture ([#296](https://github.com/betabitplus/ternforge-template-components/issues/296)) ([72a80d2](https://github.com/betabitplus/ternforge-template-components/commit/72a80d2c30b10e2c1b8b18349d9f1393998134b1))
+
 ## [1.13.14](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.13...v1.13.14) (2026-08-26)
 
 
