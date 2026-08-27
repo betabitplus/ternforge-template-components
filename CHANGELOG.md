@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.14.2...v1.15.0) (2026-08-27)
+
+
+### Features
+
+* add source implementation traceability ([#311](https://github.com/betabitplus/ternforge-template-components/issues/311)) ([fda1d3d](https://github.com/betabitplus/ternforge-template-components/commit/fda1d3da27d2b1395aefc7360176b7c8804645f3))
+
 ## [1.14.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.14.1...v1.14.2) (2026-08-27)
 
 
