@@ -4,6 +4,7 @@
 
 - {doc}`Live executable examples <auto_examples/index>`
 - {doc}`API reference <api>`
+- {doc}`Requirements traceability <traceability>`
 
 ```{toctree}
 :hidden:
@@ -11,4 +12,5 @@
 
 api
 auto_examples/index
+traceability
 ```

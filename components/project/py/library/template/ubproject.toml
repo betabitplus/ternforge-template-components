@@ -30,6 +30,34 @@ schema.type = "string"
 description = "Gherkin scenario name for BDD evidence."
 schema.type = "string"
 
+[codelinks]
+set_local_url = true
+local_url_field = "source_url"
+
+[codelinks.projects.python.source_discover]
+src_dir = "src"
+include = ["**/*.py"]
+comment_type = "python"
+
+[codelinks.projects.python.analyse.oneline_comment_style]
+start_sequence = "@impl"
+end_sequence = "\n"
+field_split_char = ","
+
+[[codelinks.projects.python.analyse.oneline_comment_style.needs_fields]]
+name = "title"
+
+[[codelinks.projects.python.analyse.oneline_comment_style.needs_fields]]
+name = "id"
+
+[[codelinks.projects.python.analyse.oneline_comment_style.needs_fields]]
+name = "implements"
+type = "list[str]"
+
+[[codelinks.projects.python.analyse.oneline_comment_style.needs_fields]]
+name = "type"
+default = "impl"
+
 [needs.links.derives]
 outgoing = "derives from"
 incoming = "derived by"

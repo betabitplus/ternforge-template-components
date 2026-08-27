@@ -8,6 +8,7 @@ project = "[[[ project_name ]]]"
 
 extensions = [
     "myst_parser",
+    "sphinx_codelinks",
     "sphinx_needs",
     "sphinxcontrib.test_reports",
     "sphinx.ext.autodoc",
@@ -19,6 +20,7 @@ extensions = [
 
 root_doc = "index"
 needs_from_toml = "../ubproject.toml"
+src_trace_config_from_toml = "../ubproject.toml"
 tr_extra_options = ["verification_kind", "gherkin_feature", "gherkin_scenario"]
 tr_property_link_types = {"verifies": "verifies"}
 tr_suite_id_length = 8
