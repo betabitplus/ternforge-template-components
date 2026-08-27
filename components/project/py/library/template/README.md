@@ -4,8 +4,7 @@
 
 This project uses the Ternforge Python-library structure: source-layout
 packaging, a small public package boundary, private implementation folders,
-layered tests, package docs, runnable public API examples, local workbench
-probes, and reusable project tooling.
+runnable public API examples, local workbench probes, and reusable project tooling.
 
 ## What It Provides
 
@@ -14,13 +13,11 @@ probes, and reusable project tooling.
 - `_api` declarations over private `_internal` implementation.
 - A reusable config lifecycle with public re-exports and private snapshot state.
 - Structured logging plus safe error/value previews from `py-lib-runtime`.
-- Unit, integration, and property-based test folders; optional E2E depth when needed.
-- Optional Living Specifications under `features/` with pytest-bdd bindings.
 - Reusable development and test tooling through `py-lib-testkit`.
-- Package-specific tests under `tests/[[[ package_name ]]]/`.
+- Package-specific tests under `tests/[[[ package_name ]]]/` without a mandatory test taxonomy.
 - Runnable public API examples under `examples/[[[ package_name ]]]/`.
 - Manual probes under `workbench/[[[ package_name ]]]/`.
-- Package docs under `docs/[[[ package_name ]]]/`.
+- Public API and executable-example documentation under `docs/`.
 - Shared tooling metadata in `[tool.ternforge]`.
 - Import-linter, offline example-import checks, and generated Sphinx documentation.
 
@@ -56,7 +53,7 @@ Review these project-specific values first:
 - Distribution name: `[[[ project_name ]]]`
 - Import package: `[[[ package_name ]]]`
 - Public API objects in `src/[[[ package_name ]]]/__init__.py`
-- Package docs under `docs/[[[ package_name ]]]/`
+- Repository docs under `docs/`
 - Package tests under `tests/[[[ package_name ]]]/`
 - Runnable examples under `examples/[[[ package_name ]]]/`
 - Workbench probes under `workbench/[[[ package_name ]]]/`
@@ -68,4 +65,4 @@ Review these project-specific values first:
 ## Documentation
 
 Start with [docs/README.md](docs/README.md) for the generated site, live examples,
-API reference, architecture, and dependencies.
+and API reference.

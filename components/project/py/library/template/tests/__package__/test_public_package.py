@@ -1,4 +1,4 @@
-"""Public package boundary unit tests.
+"""Public package boundary tests.
 
 Why:
     Protects the initial supported top-level imports before real public
