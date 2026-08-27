@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.17...v1.14.0) (2026-08-27)
+
+
+### Features
+
+* add requirements graph foundation ([#304](https://github.com/betabitplus/ternforge-template-components/issues/304)) ([758ad7e](https://github.com/betabitplus/ternforge-template-components/commit/758ad7ec54c146d365100c8cb8c28ef6532d5d5a))
+
 ## [1.13.17](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.16...v1.13.17) (2026-08-27)
 
 
