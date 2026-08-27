@@ -60,6 +60,8 @@ docs = [
   "pydata-sphinx-theme>=0.20.0",
   "sphinx>=8.2.3",
   "sphinx-gallery>=0.21.0",
+  "sphinx-needs>=8.3.1,<9",
+  "sphinx-test-reports>=1.4,<2",
   "sphinxcontrib-mermaid>=2.1.0",
 ]
 

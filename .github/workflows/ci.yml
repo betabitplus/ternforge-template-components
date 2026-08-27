@@ -39,6 +39,17 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Set up uv
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+
+      - name: Verify traceability graph contract
+        run: >-
+          uv run --python 3.13
+          --with sphinx==8.2.3
+          --with sphinx-needs==8.3.1
+          --with sphinx-test-reports==1.4.0
+          python scripts/verify-traceability-schema.py
+
       - name: Verify component repository
         run: |
           set -euo pipefail
