@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.17](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.16...v1.13.17) (2026-08-27)
+
+
+### Bug Fixes
+
+* canonicalize generated dependency groups ([#302](https://github.com/betabitplus/ternforge-template-components/issues/302)) ([d1b958a](https://github.com/betabitplus/ternforge-template-components/commit/d1b958aab0b64af8b0cdf4be2635c2b522bd9804))
+
 ## [1.13.16](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.15...v1.13.16) (2026-08-27)
 
 
