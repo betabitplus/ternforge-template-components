@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.16](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.15...v1.13.16) (2026-08-27)
+
+
+### Bug Fixes
+
+* update reusable ci to 5.5.2 ([#298](https://github.com/betabitplus/ternforge-template-components/issues/298)) ([c821f75](https://github.com/betabitplus/ternforge-template-components/commit/c821f75b5af4ed31f19f563bda45544616cad731))
+
 ## [1.13.15](https://github.com/betabitplus/ternforge-template-components/compare/v1.13.14...v1.13.15) (2026-08-27)
 
 
