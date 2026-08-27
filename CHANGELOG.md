@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.15.2...v1.16.0) (2026-08-27)
+
+
+### Features
+
+* adopt unified Python evidence CI ([#317](https://github.com/betabitplus/ternforge-template-components/issues/317)) ([2ffec92](https://github.com/betabitplus/ternforge-template-components/commit/2ffec92f7e3a2d132c9e54d55dae054faba6842d))
+
 ## [1.15.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.15.1...v1.15.2) (2026-08-27)
 
 
