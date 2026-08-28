@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.18.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.17.0...v1.18.0) (2026-08-28)
+
+
+### Features
+
+* integrate ubCode graph tooling ([#327](https://github.com/betabitplus/ternforge-template-components/issues/327)) ([c09a476](https://github.com/betabitplus/ternforge-template-components/commit/c09a47690a8ba4b1e96964de7fac16047b852ae9))
+
 ## [1.17.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.16.3...v1.17.0) (2026-08-28)
 
 
