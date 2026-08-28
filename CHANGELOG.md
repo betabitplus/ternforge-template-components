@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.2...v1.22.3) (2026-08-28)
+
+
+### Bug Fixes
+
+* pin hosted release dossier workflow ([#341](https://github.com/betabitplus/ternforge-template-components/issues/341)) ([9084e9b](https://github.com/betabitplus/ternforge-template-components/commit/9084e9bc0a4ee5ac128d493e746d0fa10fb0a3cb))
+
 ## [1.22.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.1...v1.22.2) (2026-08-28)
 
 
