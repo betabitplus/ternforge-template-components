@@ -15,6 +15,7 @@
         "chendm.repomix",
         "DavidAnson.vscode-markdownlint",
         "tekumara.typos-vscode",
-        "ChinmaySingh.gherkin-lens"
+        "ChinmaySingh.gherkin-lens",
+        "useblocks.ubcode"
     ]
 }
