@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.0...v1.22.1) (2026-08-28)
+
+
+### Bug Fixes
+
+* keep sphinx-llm gallery builds offline ([#337](https://github.com/betabitplus/ternforge-template-components/issues/337)) ([859d3eb](https://github.com/betabitplus/ternforge-template-components/commit/859d3eb9e97ab04af13628fb71a7e9b5620eb67b))
+
 ## [1.22.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.21.0...v1.22.0) (2026-08-28)
 
 
