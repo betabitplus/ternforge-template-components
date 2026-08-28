@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.16.3...v1.17.0) (2026-08-28)
+
+
+### Features
+
+* recommend GherkinLens v2 ([#325](https://github.com/betabitplus/ternforge-template-components/issues/325)) ([3abe13e](https://github.com/betabitplus/ternforge-template-components/commit/3abe13ea6f6d5786ddbd874e47d6fe5c2edb28d1))
+
 ## [1.16.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.16.2...v1.16.3) (2026-08-28)
 
 
