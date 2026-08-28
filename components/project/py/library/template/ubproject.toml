@@ -33,6 +33,12 @@ schema.type = "string"
 description = "Gherkin scenario name for BDD evidence."
 schema.type = "string"
 
+[needs.fields.issue]
+description = "GitHub issue numbers tracking this requirement; Sphinx-Needs remains authoritative."
+schema.type = "array"
+schema.items.type = "integer"
+schema.uniqueItems = true
+
 [codelinks]
 set_local_url = true
 local_url_field = "source_url"
