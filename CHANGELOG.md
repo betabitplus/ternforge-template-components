@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.21.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.20.0...v1.21.0) (2026-08-28)
+
+
+### Features
+
+* add SimplePDF release dossier support ([#333](https://github.com/betabitplus/ternforge-template-components/issues/333)) ([d7a2301](https://github.com/betabitplus/ternforge-template-components/commit/d7a230141d42dbd198b46b56a1a4f71eb18b3124))
+
 ## [1.20.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.19.0...v1.20.0) (2026-08-28)
 
 
