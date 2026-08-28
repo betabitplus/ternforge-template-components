@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.5...v1.22.6) (2026-08-28)
+
+
+### Bug Fixes
+
+* pin py-lib-testkit 2.2.2 ([#347](https://github.com/betabitplus/ternforge-template-components/issues/347)) ([b5d0c80](https://github.com/betabitplus/ternforge-template-components/commit/b5d0c80c3976f9b0e585998305164e1d304c03b2))
+
 ## [1.22.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.4...v1.22.5) (2026-08-28)
 
 
