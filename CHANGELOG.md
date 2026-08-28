@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.1...v1.22.2) (2026-08-28)
+
+
+### Bug Fixes
+
+* lint Sphinx injected tags safely ([#339](https://github.com/betabitplus/ternforge-template-components/issues/339)) ([3731184](https://github.com/betabitplus/ternforge-template-components/commit/3731184683814538142ddaf8c60d3a8d30966cf1))
+
 ## [1.22.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.0...v1.22.1) (2026-08-28)
 
 
