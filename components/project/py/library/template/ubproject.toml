@@ -1,5 +1,8 @@
 "$schema" = "https://ubcode.useblocks.com/ubproject.schema.json"
 
+[server]
+index_on_save = true
+
 [needs]
 id_required = true
 build_json = true
