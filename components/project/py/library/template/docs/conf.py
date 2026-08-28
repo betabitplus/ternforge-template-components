@@ -49,3 +49,8 @@ sphinx_gallery_conf = {
     "junit": "../test-results/sphinx-gallery/junit.xml",
     "remove_config_comments": True,
 }
+
+# sphinx-llm runs a dedicated markdown subprocess with this tag. Keep that
+# derived build read-only: provider examples execute only in the primary docs build.
+if "sphinx_llm_markdown" in tags:
+    sphinx_gallery_conf["plot_gallery"] = False
