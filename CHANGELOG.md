@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.4...v1.22.5) (2026-08-28)
+
+
+### Bug Fixes
+
+* pin hermetic evidence workflows ([#345](https://github.com/betabitplus/ternforge-template-components/issues/345)) ([0801abf](https://github.com/betabitplus/ternforge-template-components/commit/0801abf566cbe08363d3c883e9a56f641ca57f75))
+
 ## [1.22.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.3...v1.22.4) (2026-08-28)
 
 
