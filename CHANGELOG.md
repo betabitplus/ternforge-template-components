@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.6...v1.22.7) (2026-08-28)
+
+
+### Bug Fixes
+
+* standardize local traceability evidence ([#349](https://github.com/betabitplus/ternforge-template-components/issues/349)) ([f163d27](https://github.com/betabitplus/ternforge-template-components/commit/f163d27ecdf1722e1c3561b9db4c42293d3fbe2a))
+
 ## [1.22.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.5...v1.22.6) (2026-08-28)
 
 
