@@ -81,9 +81,6 @@ lint.select = [
   "W",
   "YTT",
 ]
-# Ignore rules that are too noisy or conflict with formatter/project style.
-lint.task-tags = [ "TODO", "FIXME", "XXX", "@impl" ]
-lint.pycodestyle.ignore-overlong-task-comments = true
 lint.ignore = [
   "COM812",  # Trailing comma (conflicts with formatter)
   "ISC001",  # Implicit string concatenation (conflicts with formatter)
@@ -129,9 +126,12 @@ lint.per-file-ignores."workbench/*" = [
   "S101",    # Allow assert statements
   "T20",     # Allow print statements
 ]
+# Ignore rules that are too noisy or conflict with formatter/project style.
+lint.task-tags = [ "@impl", "FIXME", "TODO", "XXX" ]
 lint.flake8-tidy-imports.ban-relative-imports = "all"
 lint.isort.combine-as-imports = true
 lint.isort.known-first-party = [ "[[[ package_name ]]]" ]
+lint.pycodestyle.ignore-overlong-task-comments = true
 # Choose docstring convention: "google", "numpy", or "pep257".
 lint.pydocstyle.convention = "google"
 
