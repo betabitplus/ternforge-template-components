@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.3...v1.22.4) (2026-08-28)
+
+
+### Bug Fixes
+
+* enforce passing revision-pinned evidence ([#343](https://github.com/betabitplus/ternforge-template-components/issues/343)) ([34c0ac5](https://github.com/betabitplus/ternforge-template-components/commit/34c0ac55e845f3c05dc33230aa8191dc6c9ed810))
+
 ## [1.22.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.2...v1.22.3) (2026-08-28)
 
 
