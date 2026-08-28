@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.21.0...v1.22.0) (2026-08-28)
+
+
+### Features
+
+* enable release dossier delivery ([#335](https://github.com/betabitplus/ternforge-template-components/issues/335)) ([5c1c836](https://github.com/betabitplus/ternforge-template-components/commit/5c1c8363f351a39030695fca38d14a0cb7451d58))
+
 ## [1.21.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.20.0...v1.21.0) (2026-08-28)
 
 
