@@ -11,20 +11,30 @@ requirements and architecture are modeled explicitly.
 
 - `api.md` defines the generated public API reference.
 - `examples/[[[ package_name ]]]/` is the source of truth for runnable workflows.
-- `index.md` publishes the API reference and generated Sphinx-Gallery output.
+- `traceability.rst` renders implementation and verification evidence from Sphinx-Needs.
 
 ## Build
 
-Build documentation without executing live examples:
+Traceability builds need current pytest evidence. Generate the gitignored local JUnit
+with the same hermetic contract as required CI, then build without executing live examples:
 
 ```bash
+uv run pytest -c pyproject.toml -n 2 \
+  --record-mode=none \
+  --block-network \
+  --allowed-hosts='localhost,127\\.0\\.0\\.1' \
+  --cov-context=test \
+  --junitxml=docs/_traceability/local-pytest.xml
 uv run sphinx-build -W --keep-going -D plot_gallery=0 -b html docs docs/_build/html
 ```
 
-Build the full live gallery with the configured environment and credentials:
+The full live gallery uses the same local JUnit prerequisite and additionally requires
+the configured environment and credentials:
 
 ```bash
 uv run sphinx-build -W --keep-going -b html docs docs/_build/html
 ```
+
+Required CI performs the JUnit import automatically before its documentation build.
 
 Open `docs/_build/html/index.html` in a browser to inspect the generated site.
