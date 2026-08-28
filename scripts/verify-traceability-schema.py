@@ -46,7 +46,11 @@ INDEX = """Synthetic traceability
 
 
 def _testcase(
-    name: str, *, kind: str | None = None, verifies: str | None = None
+    name: str,
+    *,
+    kind: str | None = None,
+    verifies: str | None = None,
+    skipped: bool = False,
 ) -> str:
     properties: list[str] = []
     if kind is not None:
@@ -65,33 +69,65 @@ def _testcase(
     properties_xml = ""
     if properties:
         properties_xml = f"<properties>{''.join(properties)}</properties>"
+    outcome_xml = '<skipped message="synthetic skip" />' if skipped else ""
     return (
         f'<testcase classname="synthetic" name="{escape(name)}" time="0.001">'
-        f"{properties_xml}</testcase>"
+        f"{properties_xml}{outcome_xml}</testcase>"
     )
 
 
-def _junit(*, include_integration: bool, include_unwanted_unit: bool) -> str:
-    cases = [
-        _testcase("test_behavior", kind="bdd", verifies="REQ_FALLBACK"),
-        _testcase("test_untraced_diagnostic"),
-    ]
+def _junit(
+    *,
+    include_integration: bool,
+    include_unwanted_unit: bool,
+    include_bdd: bool = True,
+    skip_bdd: bool = False,
+) -> str:
+    cases = [_testcase("test_untraced_diagnostic")]
+    if include_bdd:
+        cases.insert(
+            0,
+            _testcase(
+                "test_behavior",
+                kind="bdd",
+                verifies="REQ_FALLBACK[revision==1]",
+                skipped=skip_bdd,
+            ),
+        )
     if include_integration:
         cases.append(
-            _testcase("test_integration", kind="integration", verifies="REQ_FALLBACK")
+            _testcase(
+                "test_integration",
+                kind="integration",
+                verifies="REQ_FALLBACK[revision==1]",
+            )
         )
     if include_unwanted_unit:
-        cases.append(_testcase("test_unit", kind="unit", verifies="REQ_FALLBACK"))
+        cases.append(
+            _testcase(
+                "test_unit",
+                kind="unit",
+                verifies="REQ_FALLBACK[revision==1]",
+            )
+        )
+    skipped_count = int(include_bdd and skip_bdd)
+    cases_xml = "".join(cases)
     return (
         '<?xml version="1.0" encoding="utf-8"?>'
-        f'<testsuites tests="{len(cases)}" failures="0" errors="0" skipped="0">'
+        f'<testsuites tests="{len(cases)}" failures="0" errors="0" '
+        f'skipped="{skipped_count}">'
         f'<testsuite name="pytest" tests="{len(cases)}" failures="0" errors="0" '
-        f'skipped="0" time="0.01">{"".join(cases)}</testsuite></testsuites>'
+        f'skipped="{skipped_count}" time="0.01">{cases_xml}</testsuite></testsuites>'
     )
 
 
 def build(
-    junit: str, *, include_impl: bool = True, include_manual_impl: bool = False
+    junit: str,
+    *,
+    include_impl: bool = True,
+    include_manual_impl: bool = False,
+    requirement_revision: int = 1,
+    requested_artifacts: str = "impl;bdd;integration",
 ) -> int:
     """Build one isolated graph with source and JUnit evidence."""
     with tempfile.TemporaryDirectory(prefix="ternforge-trace-schema-") as tmp:
@@ -103,7 +139,8 @@ def build(
         source.parent.mkdir(parents=True)
         source.write_text(
             (
-                "# @impl Fallback implementation, IMPL_FALLBACK, [REQ_FALLBACK]\n"
+                "# @impl Fallback implementation, IMPL_FALLBACK, "
+                "[REQ_FALLBACK[revision==1]]\n"
                 if include_impl
                 else "def fallback() -> None:\n    pass\n"
             ),
@@ -123,7 +160,11 @@ def build(
             "tr_case_id_length = 8\n",
             encoding="utf-8",
         )
-        index = INDEX
+        index = INDEX.replace(":revision: 1", f":revision: {requirement_revision}")
+        index = index.replace(
+            ":needs_artifacts: impl;bdd;integration",
+            f":needs_artifacts: {requested_artifacts}",
+        )
         if include_manual_impl:
             index += """
 
@@ -163,8 +204,20 @@ def main() -> None:
     valid = _junit(include_integration=True, include_unwanted_unit=False)
     missing_test = _junit(include_integration=False, include_unwanted_unit=False)
     unwanted_test = _junit(include_integration=True, include_unwanted_unit=True)
+    skipped_bdd = _junit(
+        include_integration=True,
+        include_unwanted_unit=False,
+        skip_bdd=True,
+    )
+    impl_only = _junit(
+        include_bdd=False,
+        include_integration=False,
+        include_unwanted_unit=False,
+    )
     if build(valid) != 0:
         raise SystemExit("valid imported traceability graph must pass")
+    if build(impl_only, requested_artifacts="impl") != 0:
+        raise SystemExit("revision-pinned implementation evidence must pass")
     if build(valid, include_impl=False) == 0:
         raise SystemExit("missing requested implementation evidence must fail")
     if build(valid, include_impl=False, include_manual_impl=True) == 0:
@@ -173,8 +226,18 @@ def main() -> None:
         )
     if build(missing_test) == 0:
         raise SystemExit("missing requested integration evidence must fail")
+    if build(skipped_bdd) == 0:
+        raise SystemExit("skipped BDD evidence must not satisfy requested coverage")
     if build(unwanted_test) == 0:
         raise SystemExit("unwanted unit evidence must fail")
+    if build(valid, requirement_revision=2) == 0:
+        raise SystemExit("stale revision-pinned verification evidence must fail")
+    if build(
+        impl_only,
+        requirement_revision=2,
+        requested_artifacts="impl",
+    ) == 0:
+        raise SystemExit("stale revision-pinned implementation evidence must fail")
 
 
 if __name__ == "__main__":
