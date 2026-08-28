@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.20.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.19.0...v1.20.0) (2026-08-28)
+
+
+### Features
+
+* publish agent-readable documentation ([#331](https://github.com/betabitplus/ternforge-template-components/issues/331)) ([5a676e3](https://github.com/betabitplus/ternforge-template-components/commit/5a676e3bb24f130046cff228472722785498b2de))
+
 ## [1.19.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.18.0...v1.19.0) (2026-08-28)
 
 
