@@ -11,6 +11,7 @@ extensions = [
     "sphinx_needs",
     "sphinx_codelinks",
     "sphinxcontrib.test_reports",
+    "sphinx_llm.txt",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
