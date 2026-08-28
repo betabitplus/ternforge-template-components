@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.7...v1.22.8) (2026-08-28)
+
+
+### Bug Fixes
+
+* complete traceability template policy ([#351](https://github.com/betabitplus/ternforge-template-components/issues/351)) ([5ca84a6](https://github.com/betabitplus/ternforge-template-components/commit/5ca84a665dc9a6c5263a73217106b7f266cda754))
+
 ## [1.22.7](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.6...v1.22.7) (2026-08-28)
 
 
