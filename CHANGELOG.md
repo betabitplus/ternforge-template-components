@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.19.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.18.0...v1.19.0) (2026-08-28)
+
+
+### Features
+
+* add GitHub issue trace metadata ([#329](https://github.com/betabitplus/ternforge-template-components/issues/329)) ([1ad3dd5](https://github.com/betabitplus/ternforge-template-components/commit/1ad3dd524011064969c237b7e65e5d218065782c))
+
 ## [1.18.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.17.0...v1.18.0) (2026-08-28)
 
 
