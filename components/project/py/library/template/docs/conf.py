@@ -12,6 +12,7 @@ extensions = [
     "sphinx_codelinks",
     "sphinxcontrib.test_reports",
     "sphinx_llm.txt",
+    "sphinx_simplepdf",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
@@ -29,6 +30,7 @@ tr_case_id_length = 8
 exclude_patterns = ["_build", "README.md"]
 myst_fence_as_directive = {"mermaid"}
 html_theme = "pydata_sphinx_theme"
+simplepdf_file_name = "release-dossier.pdf"
 
 # Required CI stays offline; live docs explicitly opt into external inventories.
 intersphinx_mapping = {}
