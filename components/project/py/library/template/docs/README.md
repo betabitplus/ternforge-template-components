@@ -20,11 +20,11 @@ with the same hermetic contract as required CI, then build without executing liv
 
 ```bash
 uv run pytest -c pyproject.toml -n 2 \
-  --record-mode=none \
-  --block-network \
-  --allowed-hosts='localhost,127\\.0\\.0\\.1' \
-  --cov-context=test \
-  --junitxml=docs/_traceability/local-pytest.xml
+    --record-mode=none \
+    --block-network \
+    --allowed-hosts='localhost,127\\.0\\.0\\.1' \
+    --cov-context=test \
+    --junitxml=docs/_traceability/local-pytest.xml
 uv run sphinx-build -W --keep-going -D plot_gallery=0 -b html docs docs/_build/html
 ```
 
