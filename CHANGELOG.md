@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.10](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.9...v1.22.10) (2026-08-29)
+
+
+### Bug Fixes
+
+* format traceability docs workflow ([#355](https://github.com/betabitplus/ternforge-template-components/issues/355)) ([6fcb0a2](https://github.com/betabitplus/ternforge-template-components/commit/6fcb0a249b601330d764e92998867fb208fc78c2))
+
 ## [1.22.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.8...v1.22.9) (2026-08-29)
 
 
