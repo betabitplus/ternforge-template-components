@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.9](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.8...v1.22.9) (2026-08-29)
+
+
+### Bug Fixes
+
+* canonicalize traceability Ruff config ([#353](https://github.com/betabitplus/ternforge-template-components/issues/353)) ([71f2e1e](https://github.com/betabitplus/ternforge-template-components/commit/71f2e1eace0751beeaf9fe14e29300f4e782b53e))
+
 ## [1.22.8](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.7...v1.22.8) (2026-08-28)
 
 
