@@ -364,7 +364,7 @@ repos:
       - id: check-added-large-files
         args: [--maxkb=1000]
         stages: [pre-commit]
-        exclude: ^(tests/[^/]+/(e2e/.*/cassettes/|data/))
+        exclude: ^(tests/[^/]+/(e2e/.*/cassettes/|data/)|experiments/[^/]+/exp_[^/]+/inputs/)
 
       # Check for files that would conflict on case-insensitive filesystems
       - id: check-case-conflict
