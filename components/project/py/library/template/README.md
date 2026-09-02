@@ -4,7 +4,8 @@
 
 This project uses the Ternforge Python-library structure: source-layout
 packaging, a small public package boundary, private implementation folders,
-runnable public API examples, local workbench probes, and reusable project tooling.
+runnable public API examples, optional isolated engineering experiments, and
+reusable project tooling.
 
 ## What It Provides
 
@@ -16,7 +17,7 @@ runnable public API examples, local workbench probes, and reusable project tooli
 - Reusable development and test tooling through `py-lib-testkit`.
 - Package-specific tests under `tests/[[[ package_name ]]]/` without a mandatory test taxonomy.
 - Runnable public API examples under `examples/[[[ package_name ]]]/`.
-- Manual probes under `workbench/[[[ package_name ]]]/`.
+- Optional isolated Engineering Experiment capsules under `experiments/`.
 - Public API and executable-example documentation under `docs/`.
 - Shared tooling metadata in `[tool.ternforge]`.
 - Import-linter, offline example-import checks, and generated Sphinx documentation.
@@ -56,7 +57,7 @@ Review these project-specific values first:
 - Repository docs under `docs/`
 - Package tests under `tests/[[[ package_name ]]]/`
 - Runnable examples under `examples/[[[ package_name ]]]/`
-- Workbench probes under `workbench/[[[ package_name ]]]/`
+- Optional isolated experiment capsules under `experiments/`
 - Project URLs in `pyproject.toml`
 - Environment prefix: `[[[ env_prefix ]]]`
 - Optional `[tool.py_lib_runtime.logging]` policy if local runs need

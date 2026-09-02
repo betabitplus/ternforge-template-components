@@ -19,11 +19,11 @@ repos:
   # =============================================================================
   - repo: local
     hooks:
-      # Linter - runs first to catch issues
+      # Linter - runs first to catch issues in mutable project code.
       - id: ruff
         name: ruff (lint + autofix)
         entry: >-
-          bash -c 'paths=(); for path in src tests examples workbench scripts; do
+          bash -c 'paths=(); for path in src tests examples scripts; do
           [ ! -e "$path" ] || paths+=("$path"); done; uv run ruff check --fix
           --unsafe-fixes "${paths[@]}"'
         language: system
@@ -32,11 +32,28 @@ repos:
         stages: [pre-commit]
         exclude: ^sandbox/
 
-      # Formatter - runs after linter fixes
+      # Experiment source is causal evidence: check it, never auto-mutate it.
+      - id: ruff-experiments
+        name: ruff (experiments check-only)
+        entry: uv run ruff check experiments
+        language: system
+        pass_filenames: false
+        files: ^experiments/
+        stages: [pre-commit]
+
+      - id: ruff-format-experiments
+        name: ruff-format (experiments check-only)
+        entry: uv run ruff format --check experiments
+        language: system
+        pass_filenames: false
+        files: ^experiments/
+        stages: [pre-commit]
+
+      # Formatter - runs after linter fixes on mutable project code only.
       - id: ruff-format
         name: ruff-format
         entry: >-
-          bash -c 'paths=(); for path in src tests examples workbench scripts; do
+          bash -c 'paths=(); for path in src tests examples scripts; do
           [ ! -e "$path" ] || paths+=("$path"); done; uv run ruff format
           "${paths[@]}"'
         language: system
@@ -133,7 +150,7 @@ repos:
         language: system
         pass_filenames: false
         always_run: true
-        files: (^src/|^tests/|^examples/|^workbench/|^pyproject.toml$)
+        files: (^src/|^tests/|^examples/|^pyproject.toml$)
         stages: [pre-push]
 
       - id: py-lib-policy

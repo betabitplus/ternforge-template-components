@@ -4,6 +4,8 @@
 target-version = "py313"
 # Match Black's defaults (line length = 88).
 line-length = 88
+# Captured experiment notebooks are evidence documents; lint their owned source instead.
+extend-exclude = [ "experiments/**/report/*.ipynb" ]
 # Enable auto-fixes for safe rules (`ruff check --fix`).
 fix = true
 # Format Python snippets inside docstrings.
@@ -119,12 +121,19 @@ lint.per-file-ignores."tests/*" = [
   "T20",     # Allow print statements in test diagnostics
   "TRY003",  # Allow long exception messages
 ]
-lint.per-file-ignores."workbench/*" = [
-  "ANN",     # Manual probes do not need full typing
-  "D",       # Manual probes can keep lightweight docs
+lint.per-file-ignores."experiments/*" = [
+  "ANN",     # Experiment probes do not need full typing
+  "C901",    # Provider/lab probes may keep linear scenario orchestration
+  "D",       # Experiment probes can keep lightweight docs
+  "E501",    # Preserve literal prompts and captured source without churn
+  "EM",      # Direct contextual failure messages are acceptable in probes
+  "PERF",    # Clarity matters more than micro-optimizing one-off probes
+  "PLR0912", # Explicit experiment branches may stay linear
+  "PLR0915", # Complete probe flows may remain procedural
   "PLR2004", # Allow scenario constants
   "S101",    # Allow assert statements
   "T20",     # Allow print statements
+  "TRY003",  # Descriptive experiment exceptions may stay inline
 ]
 # Ignore rules that are too noisy or conflict with formatter/project style.
 lint.task-tags = [ "@impl", "FIXME", "TODO", "XXX" ]
@@ -150,7 +159,7 @@ ignore-nested-functions = false
 ignore-nested-classes = false
 ignore-setters = false
 ignore-overloaded-functions = true
-exclude = [ ".agents", "docs", "scripts", "tests" ]
+exclude = [ ".agents", "docs", "experiments", "scripts", "tests" ]
 color = true
 verbose = 1
 quiet = false
@@ -179,6 +188,7 @@ ignore = [
   "__pycache__/**",
   "docs/**",
   "examples/**",
+  "experiments/**",
   "features/**",
   "plan/**",
   "release-please-config.json",
@@ -187,7 +197,6 @@ ignore = [
   "tests/**",
   "typos.toml",
   "uv.lock",
-  "workbench/**",
 ]
 
 # ---------------- Deptry (dependency hygiene) ----------------
@@ -196,9 +205,9 @@ extend_exclude = [
   ".agents",
   ".venv",
   "examples",
+  "experiments",
   "scripts",
   "tests",
-  "workbench",
 ]
 known_first_party = [ "[[[ package_name ]]]" ]
 
@@ -228,6 +237,8 @@ exclude = [
   "docs/_build",
   "docs/auto_examples",
   "docs/generated",
+  # Standalone experiment capsules own separate environments and import roots.
+  "experiments",
   # Utility and verification code are checked by Ruff/pytest instead.
   "scripts",
   "tests",
@@ -269,6 +280,7 @@ src.exclude = [
   "docs/_build/",
   "docs/auto_examples/",
   "docs/generated/",
+  "experiments/",
   "scripts/",
   "tests/",
 ]
@@ -296,6 +308,7 @@ ini_options.norecursedirs = [
   "docs/_build",
   "docs/auto_examples",
   "docs/generated",
+  "experiments",
   "scripts",
 ]
 # ---------------- Pytest configuration ----------------
@@ -340,7 +353,6 @@ root_packages = [
   "examples",
   "[[[ package_name ]]]",
   "tests",
-  "workbench",
 ]
 include_external_packages = true
 
@@ -405,20 +417,4 @@ id = "[[[ project_slug ]]]-shipped-package-examples-boundary"
 type = "forbidden"
 source_modules = [ "[[[ package_name ]]]" ]
 forbidden_modules = [ "examples" ]
-allow_indirect_imports = true
-
-[[tool.importlinter.contracts]]
-name = "[[[ project_title ]]] workbench must not import shipped package"
-id = "[[[ project_slug ]]]-workbench-boundary"
-type = "forbidden"
-source_modules = [ "workbench.[[[ package_name ]]]" ]
-forbidden_modules = [ "[[[ package_name ]]]", "src" ]
-allow_indirect_imports = true
-
-[[tool.importlinter.contracts]]
-name = "[[[ project_title ]]] shipped package must not import workbench"
-id = "[[[ project_slug ]]]-shipped-package-workbench-boundary"
-type = "forbidden"
-source_modules = [ "[[[ package_name ]]]" ]
-forbidden_modules = [ "workbench" ]
 allow_indirect_imports = true
