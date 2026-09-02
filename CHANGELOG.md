@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.10...v1.23.0) (2026-09-02)
+
+
+### Features
+
+* adopt engineering experiment conventions ([#358](https://github.com/betabitplus/ternforge-template-components/issues/358)) ([e59b4f9](https://github.com/betabitplus/ternforge-template-components/commit/e59b4f9a929938eefea66072c0aa3373e87f02a8))
+
 ## [1.22.10](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.9...v1.22.10) (2026-08-29)
 
 
