@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.23.1...v1.23.2) (2026-09-02)
+
+
+### Bug Fixes
+
+* allow retained experiment inputs ([#362](https://github.com/betabitplus/ternforge-template-components/issues/362)) ([8ec8dc6](https://github.com/betabitplus/ternforge-template-components/commit/8ec8dc68d696a81ed3dd88b55eff6211c5fe8f67))
+
 ## [1.23.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.23.0...v1.23.1) (2026-09-02)
 
 
