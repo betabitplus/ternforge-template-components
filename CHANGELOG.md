@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.23.0...v1.23.1) (2026-09-02)
+
+
+### Bug Fixes
+
+* normalize experiment Ruff ordering ([#360](https://github.com/betabitplus/ternforge-template-components/issues/360)) ([1cc9509](https://github.com/betabitplus/ternforge-template-components/commit/1cc95091310648bd1cf8e9ce91d62299ea9bd3c8))
+
 ## [1.23.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.22.10...v1.23.0) (2026-09-02)
 
 
