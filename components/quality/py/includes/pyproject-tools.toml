@@ -99,6 +99,20 @@ lint.per-file-ignores."examples/*" = [
   "ERA001", # Sphinx-Gallery uses code-like configuration comments.
   "T20",    # Examples may print their public API output.
 ]
+lint.per-file-ignores."experiments/*" = [
+  "ANN",     # Experiment probes do not need full typing
+  "C901",    # Provider/lab probes may keep linear scenario orchestration
+  "D",       # Experiment probes can keep lightweight docs
+  "E501",    # Preserve literal prompts and captured source without churn
+  "EM",      # Direct contextual failure messages are acceptable in probes
+  "PERF",    # Clarity matters more than micro-optimizing one-off probes
+  "PLR0912", # Explicit experiment branches may stay linear
+  "PLR0915", # Complete probe flows may remain procedural
+  "PLR2004", # Allow scenario constants
+  "S101",    # Allow assert statements
+  "T20",     # Allow print statements
+  "TRY003",  # Descriptive experiment exceptions may stay inline
+]
 # Scripts are utility code; keep them readable without production strictness.
 lint.per-file-ignores."scripts/*" = [
   "ANN",    # No type annotation requirements
@@ -120,20 +134,6 @@ lint.per-file-ignores."tests/*" = [
   "S101",    # Allow assert statements
   "T20",     # Allow print statements in test diagnostics
   "TRY003",  # Allow long exception messages
-]
-lint.per-file-ignores."experiments/*" = [
-  "ANN",     # Experiment probes do not need full typing
-  "C901",    # Provider/lab probes may keep linear scenario orchestration
-  "D",       # Experiment probes can keep lightweight docs
-  "E501",    # Preserve literal prompts and captured source without churn
-  "EM",      # Direct contextual failure messages are acceptable in probes
-  "PERF",    # Clarity matters more than micro-optimizing one-off probes
-  "PLR0912", # Explicit experiment branches may stay linear
-  "PLR0915", # Complete probe flows may remain procedural
-  "PLR2004", # Allow scenario constants
-  "S101",    # Allow assert statements
-  "T20",     # Allow print statements
-  "TRY003",  # Descriptive experiment exceptions may stay inline
 ]
 # Ignore rules that are too noisy or conflict with formatter/project style.
 lint.task-tags = [ "@impl", "FIXME", "TODO", "XXX" ]
