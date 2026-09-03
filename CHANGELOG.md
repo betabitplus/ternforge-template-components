@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.24.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.23.2...v1.24.0) (2026-09-03)
+
+
+### Features
+
+* delegate engineering docs to DocOps ([#364](https://github.com/betabitplus/ternforge-template-components/issues/364)) ([ad4a0aa](https://github.com/betabitplus/ternforge-template-components/commit/ad4a0aabffaa7f5a75a5a83dfc4b1e2f84c9ccc0))
+
 ## [1.23.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.23.1...v1.23.2) (2026-09-02)
 
 
