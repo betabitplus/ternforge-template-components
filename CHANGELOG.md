@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.24.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.24.2...v1.24.3) (2026-09-03)
+
+
+### Bug Fixes
+
+* keep Allure dependency formatter-stable ([#370](https://github.com/betabitplus/ternforge-template-components/issues/370)) ([748c455](https://github.com/betabitplus/ternforge-template-components/commit/748c45585d9e0e69e26a462826262ef560ccc8b8))
+
 ## [1.24.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.24.1...v1.24.2) (2026-09-03)
 
 
