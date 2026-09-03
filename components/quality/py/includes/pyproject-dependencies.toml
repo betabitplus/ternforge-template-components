@@ -1,5 +1,7 @@
 [dependency-groups]
 dev = [
+  # Test runner, plugins, and retained execution evidence
+  "allure-pytest>=2.16,<3",
   # Security auditing
   "bandit>=1.9.4",
   "check-manifest>=0.51",
@@ -37,8 +39,6 @@ dev = [
 [[% endif %]]
   "pyproject-fmt>=2.23.0",
   "pyright>=1.1.410",
-  # Test runner, plugins, and retained execution evidence
-  "allure-pytest>=2.16,<3",
   "pytest>=9.1.0",
   "pytest-bdd>=8.1,<9",
   "pytest-cov>=7.1.0",
