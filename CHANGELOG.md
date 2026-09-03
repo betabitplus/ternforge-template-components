@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.24.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.24.0...v1.24.1) (2026-09-03)
+
+
+### Bug Fixes
+
+* keep uv version file render-free ([#366](https://github.com/betabitplus/ternforge-template-components/issues/366)) ([2b58790](https://github.com/betabitplus/ternforge-template-components/commit/2b5879097dafc4b21858bb76ee5f2ca8a9fd0a38))
+
 ## [1.24.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.23.2...v1.24.0) (2026-09-03)
 
 
