@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.24.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.24.1...v1.24.2) (2026-09-03)
+
+
+### Bug Fixes
+
+* include Allure pytest evidence plugin ([#368](https://github.com/betabitplus/ternforge-template-components/issues/368)) ([38e6e18](https://github.com/betabitplus/ternforge-template-components/commit/38e6e18c7f07952ec4152f1007ca8086579a68b3))
+
 ## [1.24.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.24.0...v1.24.1) (2026-09-03)
 
 
