@@ -3,37 +3,43 @@
 from __future__ import annotations
 
 import os
+import tomllib
 from pathlib import Path
 
 project = "[[[ project_name ]]]"
-
-extensions = [
-    "myst_parser",
-    "sphinx_needs",
-    "sphinx_codelinks",
-    "sphinxcontrib.test_reports",
-    "sphinx_llm.txt",
-    "sphinx_simplepdf",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.intersphinx",
-    "sphinx_gallery.gen_gallery",
-    "sphinxcontrib.mermaid",
-]
-
+extensions = ["ternforge_docops._api.sphinx_python"]
 root_doc = "index"
-needs_from_toml = "../ubproject.toml"
-src_trace_config_from_toml = "../ubproject.toml"
-tr_extra_options = ["verification_kind", "gherkin_feature", "gherkin_scenario"]
-tr_property_link_types = {"verifies": "verifies"}
-tr_suite_id_length = 8
-tr_case_id_length = 8
 exclude_patterns = ["_build", "README.md"]
-myst_fence_as_directive = {"mermaid"}
-html_theme = "pydata_sphinx_theme"
-simplepdf_file_name = "release-dossier.pdf"
 
-local_pytest_junit = Path(__file__).parent / "_traceability" / "local-pytest.xml"
+_docs_root = Path(__file__).resolve().parent
+_repo_root = _docs_root.parent
+with (_repo_root / "pyproject.toml").open("rb") as _pyproject_file:
+    release = tomllib.load(_pyproject_file)["project"]["version"]
+
+_source_ref = f"v{release}"
+_source_base = "https://github.com/[[[ github_owner ]]]/[[[ repository_name ]]]/blob"
+needs_render_context = {
+    "source_base": _source_base,
+    "source_ref": _source_ref,
+}
+needs_string_links = {
+    "gherkin_feature_source": {
+        "regex": r"(?P<path>features/.+\.feature)$",
+        "link_url": "{{ source_base }}/{{ source_ref }}/{{ path }}",
+        "link_name": "{{ path }}",
+        "options": ["gherkin_feature"],
+    },
+    "pytest_module_source": {
+        "regex": r"(?P<module>tests(?:\.[A-Za-z0-9_]+)+)$",
+        "link_url": (
+            "{{ source_base }}/{{ source_ref }}/{{ module | replace('.', '/') }}.py"
+        ),
+        "link_name": "{{ module | replace('.', '/') }}.py",
+        "options": ["classname"],
+    },
+}
+
+local_pytest_junit = _docs_root / "_traceability" / "local-pytest.xml"
 if not local_pytest_junit.is_file():
     exclude_patterns.append("local-pytest-evidence.rst")
 
@@ -43,20 +49,3 @@ if os.getenv("SPHINX_ENABLE_INTERSPHINX") == "1":
     intersphinx_mapping = {
         "python": ("https://docs.python.org/3/", None),
     }
-
-sphinx_gallery_conf = {
-    "examples_dirs": "../examples/[[[ package_name ]]]",
-    "gallery_dirs": "auto_examples",
-    "filename_pattern": r".*\.py$",
-    "backreferences_dir": "generated/backreferences",
-    "doc_module": ("[[[ package_name ]]]",),
-    "reference_url": {"[[[ package_name ]]]": None},
-    "junit": "../test-results/sphinx-gallery/junit.xml",
-    "remove_config_comments": True,
-}
-
-# sphinx-llm runs a dedicated markdown subprocess with this tag. Keep that
-# derived build read-only: provider examples execute only in the primary docs build.
-sphinx_tags = globals().get("tags")
-if sphinx_tags is not None and sphinx_tags.has("sphinx_llm_markdown"):
-    sphinx_gallery_conf["plot_gallery"] = False

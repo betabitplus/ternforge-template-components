@@ -1,6 +1,5 @@
 [dependency-groups]
 dev = [
-  "allure-pytest-bdd>=2.16,<3",
   # Security auditing
   "bandit>=1.9.4",
   "check-manifest>=0.51",
@@ -56,15 +55,8 @@ dev = [
 ]
 docs = [
   "matplotlib>=3.11.1",
-  "myst-parser>=4.0.1",
-  "pydata-sphinx-theme>=0.20.0",
-  "sphinx>=8.2.3",
-  "sphinx-codelinks>=1.4,<2",
-  "sphinx-gallery>=0.21.0",
-  "sphinx-llm>=1,<2",
-  "sphinx-needs>=8.3.1,<9",
-  "sphinx-simplepdf>=1.7,<2",
-  "sphinx-test-reports>=1.4,<2",
-  "sphinxcontrib-mermaid>=2.1.0",
+[[% if package_name != "ternforge_docops" %]]
+  "ternforge-docops>=0.2.2,<0.3",
+[[% endif %]]
 ]
 
