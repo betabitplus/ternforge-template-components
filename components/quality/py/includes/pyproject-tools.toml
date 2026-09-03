@@ -183,6 +183,7 @@ ignore = [
   ".pytest_cache/**",
   ".release-please-manifest.json",
   ".ruff_cache/**",
+  ".ternforge/**",
   ".venv/**",
   ".vscode/**",
   "__pycache__/**",

@@ -41,7 +41,7 @@ Evidence matrices
 Requirement evidence coverage:
 
 .. needtable::
-   :columns: id;title;needs_artifacts;implements_back;verifies_back
+   :columns: id;title;required_evidence;implements_back;verifies_back
    :filter: type in ["req", "treq"]
 
 Non-passing verification evidence (empty on a healthy build):
@@ -69,5 +69,5 @@ Graph inventory
 ---------------
 
 .. needtable::
-   :columns: id;title;type;needs_artifacts
-   :filter: type in ["goal", "feature", "req", "treq", "impl", "testcase"]
+   :columns: id;title;type;required_evidence
+   :filter: type in ["goal", "feature", "req", "treq", "adr", "exp", "impl", "testcase"]

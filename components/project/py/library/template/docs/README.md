@@ -16,7 +16,8 @@ requirements and architecture are modeled explicitly.
 ## Build
 
 Traceability builds need current pytest evidence. Generate the gitignored local JUnit
-with the same hermetic contract as required CI, then build without executing live examples:
+with the same hermetic contract as required CI, then let Ternforge DocOps build the
+strict deterministic documentation surface:
 
 ```bash
 uv run pytest -c pyproject.toml -n 2 \
@@ -25,16 +26,19 @@ uv run pytest -c pyproject.toml -n 2 \
     --allowed-hosts='localhost,127\\.0\\.0\\.1' \
     --cov-context=test \
     --junitxml=docs/_traceability/local-pytest.xml
-uv run sphinx-build -W --keep-going -D plot_gallery=0 -b html docs docs/_build/html
+uv run ternforge-docops build html
 ```
 
-The full live gallery uses the same local JUnit prerequisite and additionally requires
-the configured environment and credentials:
+When the platform libraries required by WeasyPrint are available, build the release
+PDF from the same retained documentation and test evidence with:
 
 ```bash
-uv run sphinx-build -W --keep-going -b html docs docs/_build/html
+uv run ternforge-docops build dossier
 ```
 
-Required CI performs the JUnit import automatically before its documentation build.
+Live Sphinx-Gallery publication is owned by the shared Ternforge docs workflow and its
+configured trusted runner. It checks out the exact release and executes live examples
+there; the deterministic DocOps build never contacts providers.
 
-Open `docs/_build/html/index.html` in a browser to inspect the generated site.
+Required CI imports JUnit evidence automatically before its documentation build. Open
+`docs/_build/html/index.html` in a browser to inspect a local generated site.
