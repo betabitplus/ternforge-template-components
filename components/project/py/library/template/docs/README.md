@@ -36,9 +36,10 @@ PDF from the same retained documentation and test evidence with:
 uv run ternforge-docops build dossier --junit test-results/pytest-junit.xml
 ```
 
-Live Sphinx-Gallery publication is owned by the shared Ternforge docs workflow and its
-configured trusted runner. It checks out the exact release and executes live examples
-there; the deterministic DocOps build never contacts providers.
+Live publication is orchestrated by the shared Ternforge docs workflow on its configured
+trusted runner. It checks out the exact release and asks DocOps to build the full portal
+with live Sphinx-Gallery examples plus the retained Allure perspectives; deterministic
+local and required-CI DocOps builds keep live examples disabled.
 
 Required CI passes the same JUnit evidence artifact to DocOps before publication. Open
 `docs/_build/html/index.html` in a browser to inspect a local generated site.
