@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.25.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.24.3...v1.25.0) (2026-09-05)
+
+
+### Features
+
+* finish DocOps template boundary ([#374](https://github.com/betabitplus/ternforge-template-components/issues/374)) ([d6168d7](https://github.com/betabitplus/ternforge-template-components/commit/d6168d77d259d36ec3f319466f7949f873584549))
+
 ## [1.24.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.24.2...v1.24.3) (2026-09-03)
 
 
