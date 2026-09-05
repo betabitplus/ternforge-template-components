@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.26.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.25.1...v1.26.0) (2026-09-05)
+
+
+### Features
+
+* adopt DocOps CI boundary ([#379](https://github.com/betabitplus/ternforge-template-components/issues/379)) ([69f0eb3](https://github.com/betabitplus/ternforge-template-components/commit/69f0eb357fb5661faefce55ec8d729b160d5536c))
+
 ## [1.25.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.25.0...v1.25.1) (2026-09-05)
 
 
