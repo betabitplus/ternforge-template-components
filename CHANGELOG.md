@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.26.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.26.0...v1.26.1) (2026-09-05)
+
+
+### Bug Fixes
+
+* require DocOps 0.4.2 ([#381](https://github.com/betabitplus/ternforge-template-components/issues/381)) ([20b8ab0](https://github.com/betabitplus/ternforge-template-components/commit/20b8ab0787d55ff661669f9ed23950534c293a68))
+
 ## [1.26.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.25.1...v1.26.0) (2026-09-05)
 
 
