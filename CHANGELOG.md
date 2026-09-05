@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.25.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.25.0...v1.25.1) (2026-09-05)
+
+
+### Bug Fixes
+
+* pin DocOps source trace patch ([#376](https://github.com/betabitplus/ternforge-template-components/issues/376)) ([6db7472](https://github.com/betabitplus/ternforge-template-components/commit/6db74723b1f50e265fd4b368126f0d253cb25233))
+
 ## [1.25.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.24.3...v1.25.0) (2026-09-05)
 
 
