@@ -58,7 +58,7 @@ dev = [
 docs = [
   "matplotlib>=3.11.1",
 [[% if package_name != "ternforge_docops" %]]
-  "ternforge-docops>=0.4.2,<0.5",
+  "ternforge-docops>=0.4.3,<0.5",
 [[% endif %]]
 ]
 
