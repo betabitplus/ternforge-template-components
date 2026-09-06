@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.26.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.26.5...v1.26.6) (2026-09-06)
+
+
+### Bug Fixes
+
+* align release workflow with infra-ci 5.8.0 ([#391](https://github.com/betabitplus/ternforge-template-components/issues/391)) ([e16c812](https://github.com/betabitplus/ternforge-template-components/commit/e16c8124570371a5d7819f6d7a8d2ed28ed399c0))
+
 ## [1.26.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.26.4...v1.26.5) (2026-09-06)
 
 
