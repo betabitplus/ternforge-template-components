@@ -48,8 +48,8 @@ uv run pytest tests/[[[ package_name ]]]/integration/test_config_lifecycle.py -q
 Check and apply released Ternforge template updates with Copier:
 
 ```bash
-uvx --from copier==9.17.2 copier check-update
-uvx --from copier==9.17.2 copier update
+uvx --from copier==9.18.1 copier check-update
+uvx --from copier==9.18.1 copier update
 ```
 
 Run structural and artifact checks directly when needed:
