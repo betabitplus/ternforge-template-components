@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.26.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.26.3...v1.26.4) (2026-09-06)
+
+
+### Bug Fixes
+
+* adopt cleaned tooling releases ([#387](https://github.com/betabitplus/ternforge-template-components/issues/387)) ([4a08b9f](https://github.com/betabitplus/ternforge-template-components/commit/4a08b9f88fa0370448d6dd5d21822417d0f23744))
+
 ## [1.26.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.26.2...v1.26.3) (2026-09-06)
 
 
