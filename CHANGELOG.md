@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.27.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.27.0...v1.27.1) (2026-09-12)
+
+
+### Bug Fixes
+
+* keep generated pytest config formatted ([#396](https://github.com/betabitplus/ternforge-template-components/issues/396)) ([5482cf5](https://github.com/betabitplus/ternforge-template-components/commit/5482cf5c31d77b3abd1aa6e3c0a13acb8e7229c5))
+
 ## [1.27.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.26.6...v1.27.0) (2026-09-12)
 
 
