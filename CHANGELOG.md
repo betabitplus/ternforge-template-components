@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.27.1...v1.28.0) (2026-09-12)
+
+
+### Features
+
+* propagate boundary assurance tooling ([#398](https://github.com/betabitplus/ternforge-template-components/issues/398)) ([455c878](https://github.com/betabitplus/ternforge-template-components/commit/455c878dec8b8636edbcba8c267877932e1e354e))
+
 ## [1.27.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.27.0...v1.27.1) (2026-09-12)
 
 
