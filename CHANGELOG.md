@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.2...v1.28.3) (2026-09-12)
+
+
+### Bug Fixes
+
+* adopt infra CI docs evidence split ([#405](https://github.com/betabitplus/ternforge-template-components/issues/405)) ([a53595e](https://github.com/betabitplus/ternforge-template-components/commit/a53595e1ff23d1ccdb7dfef7871ac2ca62a0f021))
+
 ## [1.28.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.1...v1.28.2) (2026-09-12)
 
 
