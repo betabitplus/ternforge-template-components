@@ -26,6 +26,7 @@ _config_lock = RLock()
 logger = get_logger(__name__)
 
 
+# @impl Public config snapshot lookup, IMPL_CONFIG_LOOKUP, [REQ_CONFIG_LIFECYCLE[revision==1]]
 def get_config(
     config: [[[ config_class_name ]]] | None = None,
 ) -> [[[ config_class_name ]]]:
@@ -36,6 +37,7 @@ def get_config(
         return _installed_config
 
 
+# @impl Public config installation, IMPL_CONFIG_INSTALL, [REQ_CONFIG_LIFECYCLE[revision==1]]
 def install_config(config: object) -> [[[ config_class_name ]]]:
     """Install a validated runtime configuration snapshot."""
     if not isinstance(config, [[[ config_class_name ]]]):

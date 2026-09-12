@@ -18,7 +18,14 @@ Checks:
 
 from __future__ import annotations
 
+import pytest
+
 import [[[ package_name ]]] as package
+
+pytestmark = [
+    pytest.mark.verifies("REQ_PUBLIC_PACKAGE_SURFACE[revision==1]"),
+    pytest.mark.verification_kind("unit"),
+]
 
 Config = package.[[[ config_class_name ]]]
 PackageError = package.[[[ error_class_name ]]]

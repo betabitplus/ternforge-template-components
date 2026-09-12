@@ -26,6 +26,11 @@ from [[[ package_name ]]] import (
     install_config,
 )
 
+pytestmark = [
+    pytest.mark.verifies("REQ_CONFIG_LIFECYCLE[revision==1]"),
+    pytest.mark.verification_kind("unit"),
+]
+
 # =============================================================================
 # Tests
 # =============================================================================

@@ -15,25 +15,36 @@ requirements and architecture are modeled explicitly.
 
 ## Build
 
-Traceability builds need current pytest evidence. Generate JUnit with the same
-hermetic contract as required CI, then pass that standard artifact directly to
-Ternforge DocOps:
+Traceability and assurance views need the same retained evidence produced by the
+required CI run. Generate JUnit, Allure results, and coverage.py test contexts from
+one hermetic pytest execution, then pass those standard artifacts to DocOps:
 
 ```bash
-uv run pytest -c pyproject.toml -n 2 \
+mkdir -p test-results/allure-results
+COVERAGE_FILE=test-results/.coverage uv run pytest -c pyproject.toml -n 2 \
     --record-mode=none \
     --block-network \
     --allowed-hosts='localhost,127\\.0\\.0\\.1' \
     --cov-context=test \
-    --junitxml=test-results/pytest-junit.xml
-uv run ternforge-docops build html --junit test-results/pytest-junit.xml
+    --junitxml=test-results/pytest-junit.xml \
+    --alluredir=test-results/allure-results
+COVERAGE_FILE=test-results/.coverage uv run coverage json \
+    --show-contexts \
+    -o test-results/coverage.json
+uv run ternforge-docops build portal \
+    --junit test-results/pytest-junit.xml \
+    --allure-results test-results/allure-results \
+    --coverage test-results/coverage.json
 ```
 
 When the platform libraries required by WeasyPrint are available, build the release
 PDF from the same retained documentation and test evidence with:
 
 ```bash
-uv run ternforge-docops build dossier --junit test-results/pytest-junit.xml
+uv run ternforge-docops build dossier \
+    --junit test-results/pytest-junit.xml \
+    --allure-results test-results/allure-results \
+    --coverage test-results/coverage.json
 ```
 
 Live publication is orchestrated by the shared Ternforge docs workflow on its configured

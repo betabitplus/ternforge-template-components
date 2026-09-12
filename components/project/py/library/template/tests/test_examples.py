@@ -10,6 +10,11 @@ import pytest
 
 EXAMPLES_DIR = Path(__file__).resolve().parents[1] / "examples" / "[[[ package_name ]]]"
 
+pytestmark = [
+    pytest.mark.verifies("REQ_EXAMPLE_IMPORTABILITY[revision==1]"),
+    pytest.mark.verification_kind("integration"),
+]
+
 
 def _example_modules() -> list[str]:
     return [

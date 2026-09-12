@@ -314,6 +314,7 @@ ini_options.norecursedirs = [
 ]
 # ---------------- Pytest configuration ----------------
 ini_options.addopts = "--cov --cov-report=term-missing --strict-markers"
+ini_options.ternforge_traceability = true
 ini_options.markers = [
   "hermetic: marks tests that run fully offline",
   "slow: marks tests that are slow and should be skipped in fast runs",
