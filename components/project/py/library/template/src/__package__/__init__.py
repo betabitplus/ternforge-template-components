@@ -32,6 +32,7 @@ try:
 except PackageNotFoundError:  # pragma: no cover
     __version__ = "0.0.0+local"
 
+# @impl Public package surface, IMPL_PUBLIC_PACKAGE_SURFACE, [REQ_PUBLIC_PACKAGE_SURFACE[revision==1]]
 __all__ = [
 [[% for public_name in [config_class_name, error_class_name, "InvalidConfigValueError"] | sort %]]
     "[[[ public_name ]]]",
