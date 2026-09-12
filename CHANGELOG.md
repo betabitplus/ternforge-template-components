@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.3...v1.28.4) (2026-09-12)
+
+
+### Bug Fixes
+
+* adopt DocOps SimplePDF normalization ([#407](https://github.com/betabitplus/ternforge-template-components/issues/407)) ([fbdf473](https://github.com/betabitplus/ternforge-template-components/commit/fbdf473b6dac201c76546bf0dcb0ee0f4cd8596e))
+
 ## [1.28.3](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.2...v1.28.3) (2026-09-12)
 
 
