@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.1...v1.28.2) (2026-09-12)
+
+
+### Bug Fixes
+
+* adopt DocOps complementary evidence semantics ([#403](https://github.com/betabitplus/ternforge-template-components/issues/403)) ([d981bf2](https://github.com/betabitplus/ternforge-template-components/commit/d981bf2923c456385f20b252901a215054128eb4))
+
 ## [1.28.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.0...v1.28.1) (2026-09-12)
 
 
