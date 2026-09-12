@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.29.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.5...v1.29.0) (2026-09-12)
+
+
+### Features
+
+* adopt evidence assurance releases ([#411](https://github.com/betabitplus/ternforge-template-components/issues/411)) ([0369318](https://github.com/betabitplus/ternforge-template-components/commit/036931890984a3ad6c25645e251fe8f295202698))
+
 ## [1.28.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.4...v1.28.5) (2026-09-12)
 
 
