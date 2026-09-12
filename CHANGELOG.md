@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.27.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.26.6...v1.27.0) (2026-09-12)
+
+
+### Features
+
+* add assurance-ready Python library contract ([#394](https://github.com/betabitplus/ternforge-template-components/issues/394)) ([390956a](https://github.com/betabitplus/ternforge-template-components/commit/390956a8c7af452f48a0aa60b2a63b9b423d8508))
+
 ## [1.26.6](https://github.com/betabitplus/ternforge-template-components/compare/v1.26.5...v1.26.6) (2026-09-06)
 
 
