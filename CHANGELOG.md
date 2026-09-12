@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.5](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.4...v1.28.5) (2026-09-12)
+
+
+### Bug Fixes
+
+* adopt DocOps renderer compatibility ([#409](https://github.com/betabitplus/ternforge-template-components/issues/409)) ([7f8c0ac](https://github.com/betabitplus/ternforge-template-components/commit/7f8c0acf8af913728edd4513160136078ea81a23))
+
 ## [1.28.4](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.3...v1.28.4) (2026-09-12)
 
 
