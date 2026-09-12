@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.0...v1.28.1) (2026-09-12)
+
+
+### Bug Fixes
+
+* publish DocOps 0.13 component pin ([#401](https://github.com/betabitplus/ternforge-template-components/issues/401)) ([56782a3](https://github.com/betabitplus/ternforge-template-components/commit/56782a398435644f814cc01b3f5fe57ae6c7b614))
+
 ## [1.28.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.27.1...v1.28.0) (2026-09-12)
 
 
