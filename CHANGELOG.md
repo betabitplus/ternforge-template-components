@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.29.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.29.0...v1.29.1) (2026-09-12)
+
+
+### Bug Fixes
+
+* adopt DocOps evidence drilldown patch ([#413](https://github.com/betabitplus/ternforge-template-components/issues/413)) ([f82e925](https://github.com/betabitplus/ternforge-template-components/commit/f82e9259f067f8d6d0e597bd90f42a1c7226d503))
+
 ## [1.29.0](https://github.com/betabitplus/ternforge-template-components/compare/v1.28.5...v1.29.0) (2026-09-12)
 
 
