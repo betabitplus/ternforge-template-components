@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.29.2](https://github.com/betabitplus/ternforge-template-components/compare/v1.29.1...v1.29.2) (2026-09-13)
+
+
+### Bug Fixes
+
+* adopt DocOps theme mode patch ([#415](https://github.com/betabitplus/ternforge-template-components/issues/415)) ([5190a25](https://github.com/betabitplus/ternforge-template-components/commit/5190a2518f46c6c57551d37963d294114f645009))
+
 ## [1.29.1](https://github.com/betabitplus/ternforge-template-components/compare/v1.29.0...v1.29.1) (2026-09-12)
 
 
