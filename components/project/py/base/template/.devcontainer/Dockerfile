@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     direnv="${DIRENV_VERSION}" \
 [[% for package, version in devcontainer_apt_packages|dictsort %]]    [[[ package ]]]="[[[ version ]]]" \
 [[% endfor %]]    && rm -rf /var/lib/apt/lists/*
-COPY --from=ghcr.io/astral-sh/uv:0.12.5@sha256:e85be844203885286c60ffad8a858d48afb6c5a5c237ca0e67f12e74b8f174b1 /uv /uvx /usr/local/bin/
+COPY --from=ghcr.io/astral-sh/uv:0.13.7@sha256:96f40d3904aad8d0bd010539001d36c8e2188b981e1334471a90c4a1d93bb490 /uv /uvx /usr/local/bin/
 COPY --from=ghcr.io/getsops/sops:v3.13.3@sha256:857f5a151ac0b2bfc55c1e4e5581d66fb8e268e4d106b38e74191f3bac9d58ea /usr/local/bin/sops /usr/local/bin/sops
 ENV UV_PROJECT_ENVIRONMENT=.venv
 ENV UV_LINK_MODE=copy
