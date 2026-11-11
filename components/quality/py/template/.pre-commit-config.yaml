@@ -173,7 +173,7 @@ repos:
   # Typos - Fast spell checker (Rust-based)
   # =============================================================================
   - repo: https://github.com/crate-ci/typos
-    rev: 8a48f81b6c64dcfea44b3633223084c4be58ac5f # v1.49.0
+    rev: 276087d9a4f06398b3e04825487805e2d7375888 # v1.52.2
     hooks:
       - id: typos
         args: [--config, typos.toml, --force-exclude]
