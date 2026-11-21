@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1@sha256:ecfaec9ed6d810b56388c508f4121597bfbba70d41a6dfeee4d8cad5f295fc32
-FROM mcr.microsoft.com/devcontainers/python:3.13-trixie@sha256:a193ef0a42790e4bcaeeb13665d7bd3cb538a1cf4be721797e18f5dceaa92b1e
+FROM mcr.microsoft.com/devcontainers/python:3.13-trixie@sha256:5bbf05ac5b550e812a3f7fb3c35c5e99131567f24fdb3e2d29525e5e1c6972a2
 ENV DEBIAN_FRONTEND=noninteractive
 ARG DIRENV_VERSION=2.32.1-2+b16
 RUN apt-get update && apt-get install -y --no-install-recommends \
